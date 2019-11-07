@@ -1,0 +1,489 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+.top{
+    width: 100%;
+    height: 3rem;
+    background-image: url("../img/购买须知背景图.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.img-btn{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn img{
+    max-width: 2rem;
+}
+
+.banner{
+    width: 100%;
+    height: 10rem;
+}
+
+.banner img{
+    height: 10rem;
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0 ;
+    overflow: hidden;
+    margin-top: 3rem;
+}
+
+.content-top{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+    background-color: #dbdef2;
+}
+
+.content-top-left{
+    font-size: .9rem;
+    color: #292929;
+}
+
+.content-top-right{
+    font-size: .8rem;
+    color: #848686;
+}
+
+.content-topic{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.topic-top{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topic-top-left{
+    width: 70%;
+    height: 100%;
+    font-size: .8rem;
+    color: #8b8b8b;
+    line-height: 3rem;
+}
+
+.topic-top-right{
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: .9rem;
+    background-image: url("../img/进群了解1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.topic-bottom{
+    width: 100%;
+    height: 7rem;
+    background-color: #ffffff;
+}
+
+.topic-bottom-text{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #292929;
+    font-size: .9rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: .5rem;
+}
+
+.topic-bottom-show{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 .5rem;
+}
+
+.show-left{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-left-cover{
+    width: 100%;
+    height: 2rem;
+    border-radius: 2rem;
+    border: 1px solid #6483ff;
+    position: relative;
+    overflow: hidden;
+}
+
+.show-inline{
+    width: 25%;
+    background-color: #6483ff;
+    height: 100%;
+}
+
+.show-right{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    line-height: 4rem;
+    color: #8c8c8c;
+}
+
+.content-menu{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.menu-lists{
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.menu-list{
+    width: 33.3333%;
+    height: 100%;
+    position: relative;
+}
+
+.menu-list a{
+    width: 100%;
+    height: 100%;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    color: #696969;
+}
+
+.active{
+    color: #292929!important;
+}
+
+.line{
+    position: absolute;
+    top: 2.3rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1rem;
+    height: .1rem;
+    background-color: #6483ff;
+}
+
+.content-con{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.con-list{
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+.con-list-top{
+    width: 90%;
+    height: 2rem;
+    text-indent: .5rem;
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: #bdbdbd;
+    line-height: 2rem;
+}
+
+.con-list-top .active{
+    color: #292929;
+}
+
+.con-list-bottom{
+    width: 30%;
+    margin-left: 70%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-text{
+    font-size: .9rem;
+    color: #bdbdbd;
+}
+
+.bottom-text.active{
+    color: #6483ff!important;
+}
+
+.con-show{
+    width: 6rem;
+    height: 2.2rem;
+    top: 2.5rem;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.2rem;
+    background-color: #6483ff;
+    border-radius: 2.2rem;
+    position: absolute;
+    font-size: .9rem;
+}
+
+.con-list:last-child{
+    padding-bottom: 4rem;
+}
+
+.footer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.footer-list{
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+}
+
+.footer-list img{
+   width: 100%;
+   height: 100%;
+}
+
+.cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.7);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.inline{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.inline-title{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    color: #292929;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.text-box{
+    width: 100%;
+}
+
+.inline-text-box{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.inline-text{
+    font-size: 1rem;
+    color: #000000;
+    font-weight: normal;
+}
+
+.text-box2{
+    width: 100%;
+    height: 3.5rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 2.5rem;
+    font-size: .9rem;
+    color: #696969;
+    margin-bottom: 1rem;
+}
+
+.text-box2 img{
+    max-height: 1rem;
+    padding-right: .5rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.select-box{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 2.5rem;
+}
+
+.select-btn{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #696969;
+    border-radius: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #6483ff;
+    font-size: .9rem;
+}
+
+.select-text{
+    font-size: .9rem;
+    color: #696969;
+    margin-left: 1rem;
+}
+
+.last-btn{
+    width: 9rem;
+    height: 3rem;
+    margin: 1rem auto;
+    background-image: url("../img/进群了解1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: .8rem;
+    letter-spacing: .2rem;
+    font-weight: bold;
+}
+
+.inline-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-img img{
+    width: 1.5rem;
+    height: 1.5rem;
+}

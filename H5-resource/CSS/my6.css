@@ -1,0 +1,177 @@
+html{
+    font-size: 16px;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+.out{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 3rem;
+    background-color: #4080fb;
+    line-height: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: .8rem;
+    position: relative;
+}
+.return{
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.return img{
+    width: .6rem;
+    height: 1rem;
+}
+.div1{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.content{
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-left{
+    width: 5em;
+    padding: 1rem .5rem 1rem .5rem;
+}
+.content-left img{
+    width: 5rem;
+    height: 8rem;
+}
+.content-right{
+    width: 18rem;
+    height: 8rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-right: .5rem;
+}
+.content-right-text{
+    padding: .5rem 0 .5rem 0;
+    font-size: .83rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.icon-box{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    padding: .3rem  0 .3rem 0;
+}
+.icon1{
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: .5rem;
+    color: #696969;
+    letter-spacing: .2rem;
+}
+.icon1 img{
+    width: 1rem;
+    height: 1rem;
+}
+.icon-text{
+    text-indent: .1rem;
+}
+.input-box{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    margin: 1rem 0 1rem 0;
+}
+.input input{
+    width: 90%;
+    padding: .5rem 0 .5rem 0;
+    outline: none;
+    border: none;
+    border-bottom: .1rem solid #f3f3f3;
+    display: block;
+    margin: auto;
+    text-indent: .1rem;
+}
+.check{
+    width: 22rem;
+    height: 3rem;
+    background-image: url("../IMG/my/上传资料提交按钮.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 1rem auto;
+    text-align: center;
+    line-height: 3rem;
+    color: #FFFFFF;
+}
+.content-text{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .5rem;
+    font-size: .8rem;
+    color: #696969;
+}
+.content-text div{
+    line-height: 1.2rem;
+}
+.last-div{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: .5rem 0 .5rem 0;
+}
+.last-div-top{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-div-top div{
+    width: 14rem;
+    height: 3rem;
+    background-image: url("../IMG/my/my6/获取每日积分按钮.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 3rem;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+.last-div-bottom{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.last-div-bottom a{
+    color: #4080fb;
+}

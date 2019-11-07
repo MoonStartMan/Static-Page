@@ -1,0 +1,143 @@
+html{
+    font-size: 16px;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+}
+.out{
+    width: 100%;
+}
+.out-top{
+    width: 100%;
+    height: 3rem;
+    background-color: #be1a21;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 3rem;
+    font-size: .8rem;
+}
+.out-box{
+    width: 96%;
+    background-color: #FFFFFF;
+    border-radius: .75rem;
+    margin: auto;
+}
+.inline-box2{
+    width: 100%;
+    padding: .5rem 0 .5rem 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+.text-comment{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    text-indent: .6rem;
+    color: #424242;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 22.8rem;
+}
+.user-box{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-box-left{
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.user-box-left-img{
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-box-left-img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+.left-text1,.left-text2{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: #292929;
+    max-width: 10rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.left-text2{
+    color: #a9a9a9;
+}
+.user-box-right{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin-right: .5rem;
+}
+.user-box-right img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.text-toppic{
+    width: 21.6rem;
+    margin: auto;
+    padding: .5rem 0 .5rem 0;
+    background-color: #efefef;
+    color: #3f3f3f;
+}
+p{
+    margin: 0;
+    padding: 0.4rem 0 0.4rem 0;
+    max-width: 21.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.check-box{
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.check-box-inline{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #8e8e8e;
+    font-size: .8rem;
+    position: absolute;
+    right: .75rem;
+}
+.check-box-inline img{
+    width: 1rem;
+    height: 1rem;
+}
+.user-name{
+    color: #000000;
+}
+.inline-box2:last-child{
+    margin-bottom: 4rem;
+}

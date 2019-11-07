@@ -1,0 +1,205 @@
+html{
+    font-size: 16px;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+.topic{
+    width: 100%;
+    height: 3rem;
+    background-color: #0ea5f6;
+    position: relative;
+    position: relative;
+}
+.select-img{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.select-img img{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.right-text{
+    width: 3.5rem;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.topic-text{
+    text-align: center;
+    line-height: 3rem;
+    color: #FFFFFF;
+}
+.collect-content{
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    background-color: #FFFFFF;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.changeimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.collect-left{
+    align-items: center;
+    position: relative;
+    display: none;
+}
+.collect-right{
+    width: 100%;
+}
+.collect-left img{
+    width: 1rem;
+    height: 1rem;
+}
+.collect-content:last-child{
+    margin-bottom: 3rem;
+}
+
+/* 文字 */
+.result-content{
+    width: 100%;
+    margin: auto;
+}
+.result-content span {
+    display: inline-block;
+    height: 1rem;
+    text-indent: 0.5rem;
+    font-size: 0.8rem;
+}
+.text{
+    width: 7.2rem;
+    max-width: 7.2rem;
+}
+.result-content-top div{
+    width: 100%;
+}
+.one span,.two span,.three span{
+    margin: 0.5rem 0 0.5rem 0;
+    display: block;
+}
+.school{
+    display: block;
+    width: 12.5rem;
+    max-width: 12.5rem;
+}
+.text2{
+    max-width: 10rem;
+}
+.text3{
+    width: 6rem;
+    max-width: 6rem;
+}
+.text4{
+    width: 7.2rem;
+    max-width: 7.2rem;
+}
+.three span{
+    max-width: 100%;
+}
+.result-content-top span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.result-content-bottom{
+    width: 98%;
+    height: 1.5rem;
+    color: #00a3f9;
+    overflow: hidden;
+}
+.result-content-bottom div{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+}
+.result-content-bottom img{
+    width: 0.4rem;
+    height: 0.8rem;
+}
+.delete-menu{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 3rem;
+    display: none;
+}
+.delete-left{
+    width: 3rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.delete-left img{
+    width: 1rem;
+    height: 1rem;
+}
+.delete-left span{
+    font-size: 0.8rem;
+}
+.delete-right{
+    width: 4rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0.5rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete-img{
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url("../img/collect/delete.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    color: #f3f3f3;
+    letter-spacing: 0.1rem;
+}

@@ -1,0 +1,214 @@
+html{
+    font-family:'SourceHanSansCN-Heavy';
+}
+
+body,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 8.7037%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25.260416667%;
+    height: 6.75925926%;
+}
+
+.title img{
+    width: 100%;
+    height: 100%;
+} 
+
+.real-comments{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top:25.3704%;
+    font-size: 1.625rem;
+    color: #34F0F1;
+    font-weight: bold;
+}
+
+.go-hot{
+    position: absolute;
+    top: 45.55556%;
+    left: 28.177083%;
+    font-size: 1.625rem;
+    color: #FF3859;
+    font-weight: bold;
+}
+
+.real-thumbs{
+    position: absolute;
+    top: 47.5%;
+    right: 28.85416667%;
+    font-size: 1.625rem;
+    color: #34F0F1;
+    font-weight: bold;
+}
+
+.real-people{
+    position: absolute;
+    left:30.46875%;
+    bottom: 27.6851852%;
+    font-size: 1.625rem;
+    color: #34F0F1;
+    font-weight: bold;
+}
+
+.real-transmit{
+    position: absolute;
+    bottom: 28.0555556%;
+    right: 33.17708333%;
+    font-size: 1.625rem;
+    color: #FF3859;
+    font-weight: bold;
+}
+
+.box{
+    z-index: 99;
+    position: absolute;
+    width: 4.166667%;
+    height: 7.40741%;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.comments{
+    top: 30.462963%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hot{
+    top: 43.3333%;
+    left:37.60416667%;
+}
+
+.thumbs{
+    top: 45.64819%;
+    right: 36.7708333%;
+}
+
+.people{
+    left: 41.51042%;
+    bottom: 25.55556%;
+}
+
+.transmit{
+    right: 40.9375%;
+    bottom: 25.55556%;
+}
+
+.logo{
+    position: absolute;
+    top: 47.03703704%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 6.197916667%;
+    height:12.592593%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.figure{
+    position: absolute;
+    top: 33.703703704%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 21.82291667%;
+    height: 36.9444444%;
+}
+
+.figure2{
+    position: absolute;
+    top: 34.0740740741%;
+    left: 40%;
+    width: 21.40625%;
+    height: 37.870371%;
+}
+
+.figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.figure2 img{
+    width: 100%;
+    height: 100%;
+}
+
+/* .consult{
+    display: table;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 6.38889%;
+    margin: auto;
+    width: 12.5%;
+    height: 5.1852%;
+    border: 1px solid #FFF;
+}
+
+.consult p{
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #FFF;
+} */
+
+.warp1-btn2{
+    width: 8.58333333%;
+    height: 4.44680851%;
+    position: absolute;
+    top: 80.5106383%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #ffffff;
+    display: table;
+    z-index: 2;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}

@@ -1,0 +1,158 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+.top{
+    width: 100%;
+    height: 4rem;
+    background-image: url("../img/购买须知背景图.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.content-top{
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem 1rem 0 0 ;
+    position: relative;
+}
+
+.content-text{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #292929;
+    text-align: center;
+}
+
+.content-text:first-child{
+    padding-top: 3rem;
+}
+
+.content-text:last-child{
+    letter-spacing: .2rem;
+}
+
+.content-text a{
+    color: #6483ff;
+}
+
+.user-img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.user-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-menu{
+    width: 100%;
+    height: 8rem;
+    background-color: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-list{
+    width: 33.333%;
+    height: 6rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-img{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-img img{
+    max-height: 4rem;
+}
+
+.menu-text{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #292929;
+    font-size: 1rem;
+}
+
+.user-menu{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #ffffff;
+}
+
+.user-menu-list{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.user-menu-img{
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-menu-img img{
+    max-height: 1.5rem;
+}
+
+.user-menu-text{
+    height: 100%;
+}
+
+.user-menu-text a{
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    color: #292929;
+    line-height: 4rem;
+}

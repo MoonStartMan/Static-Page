@@ -1,0 +1,166 @@
+.cover2,
+.cover3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.7);
+    display: none;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.inline{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.inline2-img-box,
+.inline3-img-box{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline3-img-box{
+    background-image: url("../img/课程-我要打卡/我要打卡弹窗背景.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.inline2-img-box img{
+    max-height: 10rem;
+    position: absolute;
+    top: -1rem;
+}
+
+.inline3-topic{
+    height: 10rem;
+    line-height: 10rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.inline2-topic{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.2rem;
+    letter-spacing: .4rem;
+}
+
+.inline2-text{
+    width: 100%;
+    height: 3rem;
+    font-size: .9rem;
+    color: #696969;
+    text-align: center;
+    line-height: 3rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+.inline2-btn{
+    width: 8rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: .9rem;
+    background-image: url("../img/进群了解1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.inline3-img-box .img-box{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline3-img-box .img-box img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.inline3-text1{
+    widows: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1.2rem;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.inline3-text2{
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 1.2rem;
+    font-size: .9rem;
+}
+
+.inline3-text3{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #696969;
+    font-size: .9rem;
+}
+
+.inline3-btn{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline3-btn-inline{
+    width: 8rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #ffffff;
+    text-align: center;
+    background-image: url("../img/进群了解1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
