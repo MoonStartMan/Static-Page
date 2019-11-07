@@ -1,0 +1,118 @@
+.warp2-title{
+    width: 100%;
+    height: 6.28328009%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 11.7159763%;
+    font-size: 3.125rem;
+}
+
+.warp2-text{
+    width: 22.8125%;
+    height: 6.28328009%;
+    position: absolute;
+    top: 21.5384615%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../image/warp1-title.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: table;
+}
+
+.warp2-text a{
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.warp2-box{
+    width: 51.5625%;
+    height: 36.6863905%;
+    position: absolute;
+    top: 43.6686391%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0;
+    opacity: 0;
+}
+
+.warp2-box-list{
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.warp2-box-list.one{
+    width: 18.6868687%;
+    margin-right: 20.1010101%;
+}
+
+.warp2-box-list.two{
+    width: 20.2020202%;
+    margin-right: 15.7575758%;
+}
+
+.warp2-box-list.three{
+    width: 25.2525253%;
+}
+
+.warp2-box-list-img1{
+    width: 100%;
+    height: 70.9677419%;
+    margin-bottom: 14.1935484%;
+    display: block;
+}
+
+.warp2-box-list-img2{
+    width: 100%;
+    height: 64.516129%;
+    margin: 2.9032258% 0 24.0909091% 0;
+    display: block;
+}
+
+.warp2-box-list-img3{
+    width: 100%;
+    height: 53.5483871%;
+    margin: 8.7096774% 0 32.2727273% 0;
+    display: block;
+}
+
+.warp2-box-list-text{
+    height: 14.8387097%;
+    display: table;
+    background-color: #3366CC;
+    border-radius: 1.4375rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.warp2-box-list-text.one{
+    width: 71.8918919%;
+}
+
+.warp2-box-list-text.two{
+    width: 66.5%;
+}
+
+.warp2-box-list-text.three{
+    width: 53.2%;
+}
+
+.warp2-box-list-text a{
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 1.375rem;
+}

@@ -1,0 +1,92 @@
+.warp6-title{
+    width: 100%;
+    position: absolute;
+    top: 16.400426%;
+    text-align: center;
+    font-size: 3.125rem;
+    color: #6699FF;
+    font-weight: bold;
+    font-family:"SourceHanSansCN-Bold";
+    background:linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    background:-o-linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    background:-moz-linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    background:-webkit-linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.warp6-text{
+    width: 19.812304%;
+    height: 5.324814%;
+    position: absolute;
+    top: 25.772098%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #3366CC;
+    text-align: center;
+    display: table;
+    border-radius: 1.5625rem;
+}
+
+.warp6-text a{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.375rem;
+    color: #ffffff;
+}
+
+.warp6-box{
+    width: 60.948905%;
+    height: 44.728435%;
+    position: absolute;
+    top: 45.047923%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0;
+    opacity: 0;
+}
+
+.warp6-box-list{
+    width: 44.889937%;
+    height: 23.809524%;
+    margin-bottom: 6.547619%;
+    margin-right: 5.110063%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.warp6-box-list img{
+    width: 22.942207%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.warp6-box-list-text-box{
+    width: 72.67951%;
+    height: 64%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 27.32049%;
+}
+
+.warp6-box-list-text-box.two{
+    height: 124%;
+}
+
+.warp6-box-list-title{
+    color: #ffffff;
+    font-size: 1.375rem;
+}
+
+.warp6-box-list-text{
+    color: #CCCCFF;
+    font-size: 1.125rem;
+    padding-top: .625rem;
+}

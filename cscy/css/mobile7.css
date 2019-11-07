@@ -1,0 +1,113 @@
+.warp7-title{
+    width:100%;
+    font-size:3.125rem;
+    font-family:"SourceHanSansCN-Bold";
+    font-weight:bold;
+    color:rgba(102,153,255,1);
+    background:linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    position: absolute;
+    text-align: center;
+    top: 17.96875%;
+}
+
+.warp7-text{
+    width: 32.2222222%;
+    height: 3.90625%;
+    position: absolute;
+    top: 25.3125%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #3366CC;
+    border-radius: 1.5625rem;
+    color: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warp7-swiper{
+    width: 100%;
+    height: 35.3125%;
+    position: absolute;
+    top: 39.6875%;
+}
+
+.warp7-swiper .swiper-warpper{
+    width: 100%;
+    height: 100%;
+}
+
+.warp7-swiper .swiper-wrapper .swiper-slide{
+    width: 53.75%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.warp7-swiper .swiper-wrapper .swiper-slide.bg1{
+    background-image: url("../image/warp7-bg2.png");
+}
+
+.warp7-swiper .swiper-wrapper .swiper-slide.bg2{
+    background-image: url("../image/warp7-bg3.png");
+}
+
+.warp7-swiper .swiper-wrapper .swiper-slide.bg3{
+    background-image: url("../image/warp7-bg1.png");
+}
+
+.warp7-img1{
+    position: absolute;
+    top: 28.982301%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25.281395%;
+    height: 19.690265%;
+}
+
+.warp7-img2{
+    position: absolute;
+    top: 27.654867%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 21.963824%;
+    height: 22.345133%;
+}
+
+.warp7-img3{
+    position: absolute;
+    top: 27.876106%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 22.2222222%;
+    height: 20.575221%;
+}
+
+.warp7-list-title{
+    width: 100%;
+    font-size: 1.375rem;
+    font-weight: 500;
+    font-family:"SourceHanSansCN-Medium";
+    font-style:italic;
+    position: absolute;
+    top: 60.176991%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.warp7-list-text{
+    font-size: 1.125rem;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 68.80531%;
+}
