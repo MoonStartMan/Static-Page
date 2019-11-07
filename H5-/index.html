@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>H5-报名列表</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/iosSelect.css">
+    <script>
+        var screenWidth = window.screen.width;
+        if(screenWidth > 1000) {
+            changePC();
+        } else {
+            changeMb();
+        }
+        function changeMb() {
+            (function(doc,win){
+                var doc = doc.documentElement;
+                doc.addEventListener('DOMContentLoaded', Resize, false);
+                // 当DOM加载后执行
+                win.addEventListener('resize', Resize, false);
+                // 当屏幕发生变化时执行
+                function Resize(){
+                    doc.style.fontSize=doc.clientWidth/23.4375 +'px'; //屏幕宽度为1360时 html font-size=16px;
+                    //68.3为1360/16计算得出的值，当编写浏览器发生变化时可用编写的浏览器宽度/16得出这个固定值;
+                }
+            })(document,window)
+        }
+        function changePC() {
+            (function(doc,win){
+                var doc = doc.documentElement;
+                doc.addEventListener('DOMContentLoaded', Resize, false);
+                // 当DOM加载后执行
+                win.addEventListener('resize', Resize, false);
+                // 当屏幕发生变化时执行
+                function Resize(){
+                    doc.style.fontSize=doc.clientWidth/86 +'px'; //屏幕宽度为1360时 html font-size=16px;
+                    //68.3为1360/16计算得出的值，当编写浏览器发生变化时可用编写的浏览器宽度/16得出这个固定值;
+                }
+            })(document,window)
+        }
+        
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="banner"></div>
+        <div class="content">
+            <div class="content-title">请填写真实信息，助你报名成功</div>
+            <div class="input-box">
+                <div class="input-list">
+                    <div class="input-left">课程选择：</div>
+                    <div class="input-right">
+                        <span class="select-span" id="span1"></span>
+                        <input type="hidden" class="select-inner-input" id="input1" value="" placeholder="地区">
+                        <img src="./image/down.png" alt="">
+                    </div>
+                </div>
+                <div class="input-list">
+                    <div class="input-left">你的姓名：</div>
+                    <div class="input-right">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="input-list">
+                    <div class="input-left">专业/职业：</div>
+                    <div class="input-right">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="input-list">
+                    <div class="input-left">学校/单位：</div>
+                    <div class="input-right">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="input-list">
+                    <div class="input-left">联系方式：</div>
+                    <div class="input-right">
+                        <input type="text" />
+                        <div class="text-box-inline">发送验证码</div>
+                    </div>
+                </div>
+                <div class="input-list">
+                    <div class="input-left">验证码：</div>
+                    <div class="input-right">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="text-box-sm">福利：职业规划x培训资源x学习资料x结果证书</div>
+            <div class="bingo">培训时间（培训月每周周末）</div>
+            <div class="text-box-big">上午：9:00-12:00 下午：14:00-17:30</div>
+            <div class="bingo">培训地址</div>
+            <div class="text-box-big">湖南省长沙市芙蓉区车站北路烈士公园<br />东门长盛上东区/君都云程酒店</div>
+        </div>
+        <div class="content two">
+            <div class="content-title2">购买须知</div>
+            <div class="shop-box">
+                <div class="left">
+                    本培训课程不支持退款、转让<br />
+                    本培训课程费用支持开具发票<br />
+                    如有其它一问，可咨询班主任
+                </div>
+                <div class="right">
+                    <div class="img-box">
+                        <img src="./image/qrCode.png" alt="">
+                    </div>
+                    <div class="qr-text">扫码添加班主任</div>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-box">
+            <div class="last-box">
+                <div class="last-list">
+                    <div class="list-left">培训课程原价</div>
+                    <div class="list-right1">￥ 1999</div>
+                </div>
+                <div class="last-list">
+                    <div class="list-left">首次优惠价格</div>
+                    <div class="list-right2">￥ 199</div>
+                </div>
+            </div>
+            <div class="btn-box">
+                <img src="./image/btn.png" alt="" class="btn-img">
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container"></div>
+</body>
+<script src="./js/iosSelect.js"></script>
+<script src="./js/jQuery.js"></script>
+<script src="./js/index.js"></script>
+</html>
