@@ -1,0 +1,171 @@
+html{
+    font-family: 'SourceHanSansCN-Bold';
+}
+
+body,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0D0027;
+}
+
+.contanier{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.shuiyin{
+    position: absolute;
+    width: 8.021%;
+    height: 5.37%;
+    z-index: -1;
+}
+
+.left-top{
+    top: 3.24%;
+    left: 0.885417%;
+}
+
+.right-top{
+    top: 3.24%;
+    right: 0.885417%;
+}
+
+.left-down{
+    bottom: 2.037%;
+    left: 0.885417%;
+}
+
+.right-down{
+    bottom: 2.037%;
+    right: 0.885417%;
+}
+
+.shuiyin img{
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg{
+    position: absolute;
+    top: 5%;
+    left: 36.042%;
+    width: 45.833%;
+    height: 51.574%;
+}
+
+.circle-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    top: 15.8333%;
+    left: 19.53125%;
+    font-size: 3.75rem;
+    color: #FFF;
+}
+
+.long-font{
+    position: absolute;
+    top: 24.814815%;
+    left: 19.53125%;
+    font-size: 1.75rem;
+    color: #FFF;
+    z-index: 10;
+}
+
+.juxing{
+    position: absolute;
+    width: 66.5625%;
+    height: 5.8333%;
+    top: 24.814815%;
+    left: 19.53125%;
+}
+
+.juxing img{
+    width: 100%;
+    height: 100%;
+}
+
+.list{
+    position: absolute;
+    top: 58.704%;
+    left: 24.635417%;
+    width: 55.625%;
+    height: 35.556%;
+    opacity: 0;
+}
+
+.list-box{
+    position: absolute;
+    width: 24.345%;
+    height: 100%;
+    background:linear-gradient(0deg,rgba(0,0,161,0) 0%,rgba(31,1,91,1) 100%);
+}
+
+.distance1{
+    left:33.33%;
+}
+
+.distance2{
+    left: 66.67%
+}
+
+.inline{
+    position: absolute;
+    top: 12.76%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 87.692%;
+    height: 51.302%;
+}
+
+.inline img{
+    width: 100%;
+    height: 100%;
+}
+
+.inline-font{
+    cursor: pointer;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.375rem;
+    color: #FFF;
+    position: absolute;
+    top:63.802%;
+    text-align: center;
+}
+
+.warp1-btn2{
+    width: 12.58333333%;
+    height: 5.44680851%;
+    position: absolute;
+    top: 3.5106383%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #ffffff;
+    display: table;
+    z-index:10;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}

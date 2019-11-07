@@ -1,0 +1,21 @@
+@keyframes showAct{
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.addShow{
+    animation:showAct 1s ease;
+    -o-animation:showAct 1s ease;
+    -moz-animation:showAct 1s ease;
+    -webkit-animation:showAct 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}

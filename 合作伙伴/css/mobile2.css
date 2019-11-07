@@ -1,0 +1,67 @@
+.warp2-box{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+.warp2-text1{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    top: 14.84375%;
+}
+
+.warp2-list{
+    width: 29.58333333%;
+    height: 21.71875%;
+    background-image: url("../image/bg-color.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.warp2-list.one{
+    top: 31.328125%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.warp2-list.two{
+    top: 59.53125%;
+    left: 11.52777778%;
+}
+
+.warp2-list.three{
+    top: 59.53125%;
+    left: 58.05555556%;
+}
+
+.warp2-icon{
+    max-width: 22.53521127%;
+    position: absolute;
+    top: 25.53956835%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.warp2-list-text1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 68.34532374%;
+    color: #ffffff;
+}
+
+.warp2-list-text2{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 84.17266187%;
+    color: #ffffff;
+    font-size: 1.125rem;
+}

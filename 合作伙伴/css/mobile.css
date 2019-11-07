@@ -1,0 +1,119 @@
+html{
+    font-size: 16px;
+    height: 100%;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+@-webkit-keyframes bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../m/image/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.swiper-btn{
+    width: 1.875rem;
+    height: 2.0625rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.swiper-btn img{
+    max-height: 100%;
+}
+
+.swiper-btn.btn1{
+    top: 2.5rem;
+    transform: rotate(180deg);
+}
+
+.swiper-btn.btn2{
+    bottom: 2.5rem;
+}
+
+.animation-box{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    z-index: 10000;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #67CF22;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}

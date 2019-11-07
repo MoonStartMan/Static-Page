@@ -1,0 +1,285 @@
+html{
+    height: 100%;
+    font-size: 16px;
+    font-family: 'SourceHanSansCN-Bold';
+}
+
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+body,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@-webkit-keyframes bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.animation-box{
+   
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    z-index: 10000;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner{
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #67CF22;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    position: absolute;
+    top:6.328125%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width:67.3611111%;
+    height:5.703125%;
+}
+
+.title img{
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    z-index: 99;
+    position: absolute;
+    width: 11.111111%;
+    height: 6.25%;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.comments{
+    top: 28.984375%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hot{
+    top: 39.84%;
+    left: 16.39%;
+}
+
+.thumbs{
+    top:41.8%;
+    right: 15.28%;
+}
+
+.people{
+    left: 21.81%;
+    bottom: 33.91%;
+}
+
+.transmit{
+    right: 25.14%;
+    bottom:33.91%;
+}
+
+.logo{
+    position: absolute;
+    top: 42.97%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 16.5278%;
+    height: 10.625%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.figure{
+    position: absolute;
+    top: 31.72%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 58.18%;
+    height: 31.15%;
+}
+
+.figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.figure2{
+    position: absolute;
+    top: 32.03125%;
+    left: 22.77778%;
+    width: 57.88733%;
+    height: 31.953125%;
+}
+
+.figure2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.radius{
+    display: table;
+    position: absolute;
+    border-radius: 1.5625rem;
+    height: 3.91%;
+}
+
+.comments-different{
+    width: 25%;
+    background-color: #34F0F1;
+    top: 23.91%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hot-radius{
+    top: 47.03%;
+    left: 8.06%;
+    width: 27.78%;
+    background-color: #FF3859;
+}
+
+.font{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+.black{
+    color: #1B1E27;
+}
+
+.white{
+    color: #FFF;
+}
+
+.real-thumbs{
+    width: 25%;
+    background-color: #34F0F1;
+    top: 48.98%;
+    right: 8.61%;
+}
+
+.real-people{
+    width: 30.56%;
+    background-color: #34F0F1;
+    left: 16.39%;
+    bottom: 28.75%;
+}
+
+.real-transmit{
+    width: 23.61%;
+    right: 19.03%;
+    bottom: 28.75%;
+    background-color: #FF3859;
+}
+
+/* .consult{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5.78%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 42.4%;
+    height: 5.56%;
+    border: 1px solid #FFF;
+}
+
+.consult p{
+    cursor: pointer;
+    font-size: 1.5625rem;
+    color: #FEFEFE;
+} */
+
+.warp1-btn2{
+    width: 26.88888889%;
+    height: 4.79470199%;
+    position: absolute;
+    top: .821875%;
+    left: 57.55555556%;
+    border: 2px solid #ffffff;
+    display: table;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: .875rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
