@@ -1,0 +1,169 @@
+html{
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #008B7D;
+}
+
+.swiper-btn{
+    width: 1.875rem;
+    height: 2.0625rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.swiper-btn img{
+    max-height: 100%;
+}
+
+.swiper-btn.btn1{
+    top: 2.5rem;
+    transform: rotate(180deg);
+}
+
+.swiper-btn.btn2{
+    bottom: 2.5rem;
+}
+
+.common-top-img{
+    width: 2.34375%;
+    height: 4.78723404%;
+    position: absolute;
+    left: 19.94791667%;
+    top: 3.72340426%;
+}
+
+.common-top-text-box{
+    width: 3.80208333%;
+    height: 3.93617021%;
+    position: absolute;
+    top: 4.14893617%;
+    left: 22.8125%;
+}
+
+.common-text1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.0625rem;
+    line-height: 1.0625rem;
+    color: #ffffff;
+}
+
+.common-text2{
+    margin: 0;
+    padding: 0;
+    font-size: .6875rem;
+    line-height: .6875rem;
+    color: #ffffff;
+    margin-top: .25rem;
+}
+
+.common-top-line{
+    width: 1px;
+    height: 3.93617021%;
+    position: absolute;
+    top: 4.25531915%;
+    left: 27.61458333%;
+    background-color: #ffffff;
+}
+
+.common-text3{
+    position: absolute;
+    top: 5.10638298%;
+    left: 28.61458333%;
+    font-size: .875rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.common-btn{
+    width: 5.20833333%;
+    height: 3.82978723%;
+    position: absolute;
+    top: 3.61702128%;
+    background-color: #ffffff;
+    border-radius: 1.125rem;
+}
+
+.common-btn.one{
+    left: 67.23958333%;
+}
+
+/* .common-btn.two{
+    left: 74.01041667%;
+} */
+
+/* .common-btn img{
+    width: 20%;
+    height: 69.44444444%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+    bottom: 0;
+    margin: auto;
+} */
+
+.common-btn p {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:0 auto;
+    padding: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.common-btn p a{
+    font-size: .875rem;
+    color: #008B7D;
+    font-weight: 400;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.common-bottom-title{
+    width: 100%;
+    text-align: center;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    top: 17.12765957%;
+}
+
+.common-bottom-text{
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 400;
+    position: absolute;
+    top: 24.46808511%;
+}

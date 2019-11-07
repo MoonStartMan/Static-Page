@@ -1,0 +1,71 @@
+.warp2-img1{
+    width: 10.72916667%;
+    height: 45.10638298%;
+    position: absolute;
+    top: 34.25531915%;
+    left: 25.10416667%;
+    opacity: 0;
+}
+
+.warp2-img2{
+    width: 10.72916667%;
+    height: 45.10638298%;
+    position: absolute;
+    top: 34.25531915%;
+    left: 44.53125%;
+    opacity: 0;
+}
+
+.warp2-img3{
+    width: 11.97916667%;
+    height: 45.10638298%;
+    position: absolute;
+    top: 34.25531915%;
+    left: 64.21875%;
+    opacity: 0;
+}
+
+.warp2-text-box{
+    height: 3.61702128%;
+    position: absolute;
+    top: 81.70212766%;
+    background-color: #006359;
+    border-radius: 1.0625rem;
+    display: table;
+    opacity: 0;
+}
+
+.warp2-text-box.one{
+    width: 14.375%;
+    left: 23.28125%;
+}
+
+.warp2-text-box.two{
+    width: 16.25%;
+    left: 41.875%;
+}
+
+.warp2-text-box.three{
+    width: 11.45833333%;
+    left: 63.90625%;
+}
+
+.warp2-text-box a{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.0625rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.warp2-last-text{
+    width: 12.13541667%;
+    position: absolute;
+    top: 86.17021277%;
+    left: 63.48958333%;
+    color: #ffffff;
+    text-align: center;
+    font-size: .9375rem;
+    opacity: 0;
+}

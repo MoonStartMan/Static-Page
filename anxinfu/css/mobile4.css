@@ -1,0 +1,74 @@
+.warp4-box{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+.warp4-text1{
+    width: 100%;
+    position: absolute;
+    top: 17.109375%;
+    text-align: center;
+    font-size: 2.6875rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.warp4-text2{
+    width: 100%;
+    position: absolute;
+    top: 23.125%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8125rem;
+}
+
+.warp4-text3{
+    width: 65.13888889%;
+    height: 4.53125%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 89.0625%;
+    margin: auto;
+    background-color: #006359;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8125rem;
+    color: #ffffff;
+    border-radius: 1.8125rem;
+}
+
+.warp4-swiper{
+    width: 100%;
+    height: 46.328125%;
+    position: absolute;
+    top: 34.84375%;
+}
+
+.warp4-swiper .swiper-warpper{
+    width: 100%;
+    height: 100%;
+}
+
+.warp4-swiper .swiper-wrapper .swiper-slide{
+    width: 34.72222222%;
+    height: 100%;
+    position: relative;
+    opacity: .5;
+}
+
+.warp4-swiper .swiper-wrapper .swiper-slide img{
+   max-width: 100%;
+}
+
+.warp4-swiper .swiper-wrapper .swiper-slide-active{
+    transform: scale(1.4,1.215851602);
+    -ms-transform: scale(1.4,1.215851602);
+    -webkit-transform: scale(1.4,1.215851602);
+    transition: all .5s;
+    opacity: 1;
+}
