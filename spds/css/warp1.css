@@ -1,0 +1,135 @@
+.warp1-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.warp1-img-box1{
+    width: 14.58333333%;
+    height: 51.94444444%;
+    position: absolute;
+    top: 24.25925926%;
+    left: 22.60416667%;
+}
+
+.warp1-img-box1 img{
+    max-height: 100%;
+}
+
+.warp1-img-box2{
+    width: 3.64583333%;
+    height: 6.48148148%;
+    position: absolute;
+    top: 40.35185185%;
+    left: 44.89583333%;
+}
+
+.warp1-img-box2 img{
+    max-width: 100%;
+}
+
+.warp1-title{
+    position: absolute;
+    top: 40.18518519%;
+    left: 49.42708333%;
+    font-size: 1.875rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.warp1-title-en{
+    position: absolute;
+    top: 45.25925926%;
+    left: 49.42708333%;
+    font-size: .6875rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.warp1-text1{
+    position: absolute;
+    font-size: 3.125rem;
+    color: #ffffff;
+    position: absolute;
+    top: 50.88888889%;
+    left: 44.94791667%;
+    font-weight: bold;
+}
+
+.warp1-text2{
+    position: absolute;
+    font-size: 1.375rem;
+    color: #ffffff;
+    font-weight: normal;
+    top: 60.48148148%;
+    left: 44.94791667%;
+}
+
+/* .warp1-btn{
+    width: 7.1875%;
+    height: 4.35185185%;
+    position: absolute;
+    top: 58.05555556%;
+    border-radius: 1.4375rem;
+    background:linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-o-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-moz-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-webkit-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+}
+
+.warp1-btn.one{
+    left: 44.94791667%;
+}
+
+.warp1-btn.two{
+    left: 55.3125%;
+}
+
+.warp1-btn-img{
+    max-height: 59.57446809%;
+    position: absolute;
+    top: 0;
+    left: 17.39130435%;
+    bottom: 0;
+    margin: auto;
+}
+
+.warp1-btn-text{
+    position: absolute;
+    top: 0;
+    left: 47.82608696%;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+
+.warp1-btn-text a{
+    font-size: 1.1875rem;
+    color: #ffffff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+.warp1-btn2{
+    width: 10.58333333%;
+    height: 5.44680851%;
+    position: absolute;
+    top: .5106383%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #ffffff;
+    display: table;
+    z-index:2;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}

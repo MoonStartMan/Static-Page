@@ -1,0 +1,29 @@
+.warter{
+    width: 7.70833333%;
+    height: 5.46296296%;
+    position: fixed;
+    z-index: 1;
+    background-image: url("../image/water.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.warter.one{
+    top: 4.72222222%;
+    left: 4.89583333%;
+}
+
+.warter.two{
+    top: 4.72222222%;
+    right: 4.89583333%;
+}
+
+.warter.three{
+    bottom: 4.72222222%;
+    left: 4.89583333%;
+}
+
+.warter.three{
+    bottom: 4.72222222%;
+    right: 4.89583333%;
+}

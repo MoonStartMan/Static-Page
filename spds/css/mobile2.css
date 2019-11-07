@@ -1,0 +1,98 @@
+.warp2-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.warp2-text1{
+    width: 100%;
+    position: absolute;
+    top: 11.90625%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.warp2-text2{
+    width: 100%;
+    position: absolute;
+    top: 24.34375%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.75rem;
+}
+
+.warp2-img2{
+    width: 54.44444444%;
+    height: 61.328125%;
+    position: absolute;
+    top: 28.046875%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* .warp2-btn{
+    width: 19.16666667%;
+    height: 4.35185185%;
+    position: absolute;
+    top: 5.27777778%;
+    border-radius: 1.4375rem;
+    background:linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-o-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-moz-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-webkit-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+}
+
+.warp2-btn.one{
+    left: 46.38888889%;
+}
+
+.warp2-btn.two{
+    left: 70.97222222%;
+}
+
+.warp2-btn-img{
+    max-height: 59.57446809%;
+    position: absolute;
+    top: 0;
+    left: 17.39130435%;
+    bottom: 0;
+    margin: auto;
+}
+
+.warp2-btn-text{
+    position: absolute;
+    top: 0;
+    left: 47.82608696%;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+
+.warp2-btn-text a{
+    font-size: 1.1875rem;
+    color: #ffffff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+.warp2-bottom{
+    width: 49.58333333%;
+    height: 4.21875%;
+    position: absolute;
+    top: 91.5625%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #333366;
+    color: #CCCCFF;
+    font-size: 1.375rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.6875rem;
+}

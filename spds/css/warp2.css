@@ -1,0 +1,147 @@
+.warp2-icon{
+    width: 3.22916667%;
+    height: 5.74074074%;
+    position: absolute;
+    top: 4.62962963%;
+    left: 19.79166667%;
+}
+
+.warp2-icon img{
+    max-height: 100%;
+}
+
+.warp2-text-top{
+    position: absolute;
+    top: 5.27777778%;
+    left: 23.75%;
+    color: #ffffff;
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+
+.warp2-text-top-en{
+    position: absolute;
+    top: 8.27777778%;
+    left: 23.75%;
+    color: #ffffff;
+    font-size: .75rem;
+    font-weight: normal;
+}
+
+/* .warp2-btn{
+    width: 7.1875%;
+    height: 4.35185185%;
+    position: absolute;
+    top: 5.27777778%;
+    border-radius: 1.4375rem;
+    background:linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-o-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-moz-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+    background:-webkit-linear-gradient(270deg,rgba(102,51,204,1) 0%,rgba(204,51,153,1) 100%);
+}
+
+.warp2-btn.one{
+    left: 56.30208333%;
+}
+
+.warp2-btn.two{
+    left: 65.52083333%;
+}
+
+.warp2-btn-img{
+    max-height: 59.57446809%;
+    position: absolute;
+    top: 0;
+    left: 17.39130435%;
+    bottom: 0;
+    margin: auto;
+}
+
+.warp2-btn-text{
+    position: absolute;
+    top: 0;
+    left: 47.82608696%;
+    bottom: 0;
+    margin: auto;
+    display: table;
+}
+
+.warp2-btn-text a{
+    font-size: 1.1875rem;
+    color: #ffffff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+.warp2-text1{
+    width: 100%;
+    position: absolute;
+    top: 21.11111111%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.warp2-text2{
+    width: 100%;
+    position: absolute;
+    top: 26.11111111%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+.warp2-img{
+    width: 12.76041667%;
+    height: 45.37037037%;
+    position: absolute;
+    top: 35.74074074%;
+}
+
+.warp2-img.one{
+    left: 31.77083333%;
+}
+
+.warp2-img.two{
+    left: 54.89583333%;
+}
+
+.warp2-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.warp2-text3{
+    width: 13.64583333%;
+    height: 3.7037037%;
+    background-color: #333366;
+    border-radius: 1.25rem;
+    position: absolute;
+    top: 83.88888889%;
+    display: table;
+}
+
+.warp2-text3 a{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #CCCCFF;
+    font-size: 1rem;
+}
+
+.warp2-text3.one{
+    left: 31.77083333%;
+}
+
+.warp2-text3.two{
+    left: 54.89583333%;
+}
