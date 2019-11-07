@@ -1,0 +1,222 @@
+html{
+    font-size: 16px;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+.out{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 13.25rem;
+}
+.select{
+    width: 100%;
+    height: 3.75rem;
+    background-color: #00a3f9;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-box{
+    width: 90%;
+    height: 1.875rem;
+    background-color: #FFFFFF;
+    border-radius: 1.875rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.select-input{
+    width: 80%;
+    height: 1.875rem;
+    border-radius: 1.875rem;
+    outline: none;
+    border: none;
+    font-size:1rem;
+    text-indent: 0.1rem;
+}
+.select-img-box{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-img-box img{
+    width: 1rem;
+    height: 1rem;
+}
+.banner{
+    width: 100%;
+    height: 9.5rem;
+    background: url("../img/index/banner.png") no-repeat;
+    background-size: 100% 100%;
+}
+.select-out{
+    width: 100%;
+    height: 17rem;
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.select-inner{
+    width: 90%;
+    height: 2.5rem;
+    margin: 0 1rem 0 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+.select-inner-input{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    text-indent: 1.25rem;
+    font-size: 1.125rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #999999;
+    background-color: #F3F3F3;
+    display: block;
+}
+.down-box{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-box img{
+    width: 1rem;
+    height: 0.5rem;
+}
+.select-inner:nth-child(5){
+    background: url("../img/index/button.png") no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    font-size: 0.95rem;
+    height: 3rem;
+    font-weight: bold;
+}
+.select-span{
+    width: 90%;
+    outline: none;
+    border: none;
+    text-indent: 1rem;
+    font-size: 0.7rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    color: #999999;
+    background-color: #F3F3F3;
+    display: block;
+}
+.result{
+    width: 100%;
+}
+.result-top{
+    width: 100%;
+    height: 2.375rem;
+    background-color: #F3F3F3;
+}
+.result-topic{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    height: 2.4rem;
+    font-size: 1rem;
+    text-indent: 5px;
+    font-weight: bold;
+    color: #292929;
+}
+.result-topic img{
+    width: 0.2rem;
+    height: 0.8rem;
+}
+.result-content{
+    width: 100%;
+    margin: auto;
+    border-bottom: 0.5rem solid #F3F3F3;
+}
+.result-content:last-child{
+    padding-bottom: 3rem;
+}
+.result-content span {
+    display: inline-block;
+    height: 1rem;
+    text-indent: 0.5rem;
+    font-size: 0.9rem;
+}
+.text{
+    width: 7.2rem;
+    max-width: 7.2rem;
+}
+.result-content-top div{
+    width: 100%;
+}
+.one span,.two span,.three span{
+    margin: 0.5rem 0 0.5rem 0;
+    display: block;
+}
+.school{
+    display: block;
+    width: 15.5rem;
+    max-width: 15.5rem;
+}
+.text2{
+    max-width: 10rem;
+}
+.text3{
+    width: 6rem;
+    max-width: 6rem;
+}
+.text4{
+    width: 7.2rem;
+    max-width: 7.2rem;
+}
+.three span{
+    max-width: 100%;
+}
+.result-content-top span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.result-content-bottom{
+    width: 98%;
+    height: 1.5rem;
+    color: #00a3f9;
+    overflow: hidden;
+}
+.result-content-bottom div{
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.8rem;
+}
+.result-content-bottom img{
+    width: 0.4rem;
+    height: 0.8rem;
+}
