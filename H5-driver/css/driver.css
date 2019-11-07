@@ -1,0 +1,45 @@
+.driver-box{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.car-name{
+    font-size: .8rem;
+    color: #888888;
+}
+.car{
+    color: #292929;
+}
+.driver-number{
+    font-size: .8rem;
+    color: #888888;
+}
+.number{
+    color: #292929;
+}
+.user-point1,.user-point2{
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-point1{
+    top: 30%;
+    left: 10%;
+}
+.user-point2{
+    top: 55%;
+    left: 30%;
+}
+.point{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: yellowgreen;
+    border-radius: 100%;
+    border: .1rem solid #EAEAEA;
+}

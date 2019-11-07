@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>校车定位导航系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+</head>
+<body>
+    <!-- 地图 -->
+    <div id="container"></div>
+    
+    <!-- 点击按钮 -->
+    <div class="btn-check-box">
+        <img src="./image/loading.png">
+    </div>
+
+    <!-- 登录框 -->
+    <div class="register">
+        <form action="" class="load-box">
+            <div class="user">
+                <div class="user-img">
+                    <img src="./image/user.png">
+                </div>
+                <input type="text" class="user-input" placeholder="请输入账号">
+            </div>
+            <div class="user-password">
+                <div class="password-img">
+                    <img src="./image/password.png">
+                </div>
+                <input type="password" class="password-input" placeholder="请输入密码">
+            </div>
+            <div class="check-box">
+                <div>请选择登录用户类型</div>
+                <label>
+                    <input type="radio" name="check" class="radio2" value="0">乘客
+                    <input type="radio" name="check" class="radio2" value="1">司机
+                </label>
+            </div>
+            <div class="btn-box">
+                <button type="button" class="btn1">登录</button>
+                <button type="button" class="btn1">注册</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- 覆盖盒子 -->
+    <div class="cover"></div>
+
+    <!-- 注册盒子 -->
+    <div class="zhuce-out">
+        <div class="zhuce">
+            <div class="zhuce-user">
+                <div class="zhuce-user-img">
+                    <img src="./image/user.png">
+                </div>
+                <input type="text" class="zhuce-user-input" placeholder="请输入账号">
+            </div>
+            <div class="zhuce-user-password">
+                <div class="zhuce-password-img">
+                    <img src="./image/password.png">
+                </div>
+                <input type="password" class="zhuce-password-input" placeholder="请输入密码">
+            </div>
+            <div class="zhuce-user-password-again">
+                <div class="zhuce-password-img">
+                    <img src="./image/password.png">
+                </div>
+                <input type="password" class="zhuce-password-input" placeholder="请再次输入密码">
+            </div>
+            <form class="zhuce-check-box">
+                <div>你的注册类型为:</div>
+                <label>
+                    <input type="radio" name="user-check" value="0" class="radio">乘客
+                </label>
+                <label>
+                    <input type="radio" name="user-check" value="1" class="radio">司机
+                </label>
+            </form>
+            <div class="zhuce-btn-box">
+                <button type="button" class="btn2">注册</button>
+                <button type="button" class="btn2">取消</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.1&key=a8f82350bbd28e269474935be2a38869"></script> 
+    <script type="text/javascript" src="./JavaScript/index.js"></script>
+    <script type="text/javascript" src="./JavaScript/jQuery.js"></script>
+    <script type="text/javascript" src="./JavaScript/index2.js"></script>
+</html>
