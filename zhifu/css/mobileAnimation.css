@@ -1,0 +1,72 @@
+@keyframes go{
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes load {
+    0% {
+        
+    }
+}
+
+.addWarp2-1{
+    animation:go 1s ease;
+    -o-animation:go 1s ease;
+    -moz-animation:go 1s ease;
+    -webkit-animation:go 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.addWarp2-2{
+    animation:go 1s ease;
+    -o-animation:go 1s ease;
+    -moz-animation:go 1s ease;
+    -webkit-animation:go 1s ease;
+    animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.addWarp2-3{
+    animation:go 1s ease;
+    -o-animation:go 1s ease;
+    -moz-animation:go 1s ease;
+    -webkit-animation:go 1s ease;
+    animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.addWarp2-4{
+    animation:go 1s ease;
+    -o-animation:go 1s ease;
+    -moz-animation:go 1s ease;
+    -webkit-animation:go 1s ease;
+    animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
