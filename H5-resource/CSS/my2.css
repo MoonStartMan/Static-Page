@@ -1,0 +1,147 @@
+html{
+    font-size: 16px;
+}
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+}
+.out{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 3rem;
+    background-color: #4080fb;
+    line-height: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: .8rem;
+    position: relative;
+}
+.return{
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.return img{
+    width: .6rem;
+    height: 1rem;
+}
+.banner{
+    width: 100%;
+    background-color: #4080fb;
+    height: 10rem;
+    margin-bottom: .5rem;
+}
+.out-banner{
+    width: 100%;
+    height: 7.5rem;
+}
+.number{
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2rem;
+}
+.banner-text{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: .8rem;
+}
+.collect{
+    width: 7rem;
+    height: 2rem;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.collect img{
+    width: 1rem;
+    height: 1rem;
+}
+.collect div{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: .8rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-text-out{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.content-text-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-text-box{
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+}
+.left{
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.line{
+    width: .2rem;
+    height: 1rem;
+    background-color: #4080fb;
+    margin-left: .5rem;
+}
+.left-text{
+    height: 1rem;
+    font-size: .8rem;
+    text-indent: .2rem;
+    line-height: 1rem;
+    max-width: 10rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.right{
+    font-size: 1rem;
+    color: #4080fb;
+    font-weight: bold;
+    margin-right: .5rem;
+}
+.content-text-bottom{
+    width: 100%;
+    height: 2rem;
+    background-color: #FFFFFF;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-bottom-left{
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    margin-left: 1.4rem;
+    color: #696969;
+}
+.text-bottom-right{
+    font-size: .8rem;
+    color: #696969;
+    margin-right: .5rem;
+}
