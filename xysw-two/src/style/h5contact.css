@@ -1,0 +1,60 @@
+.main {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.main .title{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.main .title-en{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .95rem;
+    color: #cccccc;
+}
+
+.main .tab{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.main .tab .img-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .tab .img-box img{
+    max-height: 50%;
+}
+
+.main .tab .text{
+    font-size: .9rem;
+    color: #000000;
+}
+
+.container2{
+    width: 100%;
+    height: 18rem;
+}
+
+.amap-marker:first-child .amap-icon img {
+    max-width: 20px;
+}

@@ -1,0 +1,612 @@
+.main{
+    width: 100%;
+}
+
+.main .swiper{
+    width: 100%;
+}
+
+.main .swiper .swiper-container{
+    width: 100%;
+}
+
+.main .swiper .swiper-container .swiper-wrapper{
+    width: 100%;
+}
+
+.main .swiper .swiper-container .swiper-wrapper .swiper-slide{
+    width: 100%;
+}
+
+.main .swiper .swiper-container .swiper-wrapper .swiper-slide img{
+    max-width: 100%;
+}
+
+.main .container1{
+    width: 100%;
+    font-size: 0;
+}
+
+.main .container1 .left{
+    width: 40%;
+    height: 10.625rem;
+    display: inline-block;
+    background-color: rgb(253 ,83, 98);
+    font-size: 0;
+}
+
+.main .container1 .left .text-box{
+    width: 60%;
+    display: inline-block;
+}
+
+.main .container1 .left .text-box p{
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.main .container1 .left .img-box{
+    width: 20%;
+    display: inline-block;
+}
+
+.main .container1 .left .img-box img{
+    max-width: 100%;
+    vertical-align: middle;
+    margin-top: -80%;
+}
+
+.main .container1 .left .img-box2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.main .container1 .left .img-box2 img{
+    max-width: 100%;
+}
+
+.main .container1 .right{
+    width: 55%;
+    height: 10.625rem;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .right .text{
+    font-size: 1.875rem;
+    color: rgb(67, 67, 67);
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    padding-top: 3.5rem;
+}
+
+.main .container2{
+    width: 90%;
+    /* height: 45.0625rem; */
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+}
+
+.main .tab-box{
+    width: 45%;
+    height: 15rem;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+    margin: 1% 2%;
+}
+
+.main .tab-box img{
+    max-width: 80%;
+    max-height: 100%;
+    vertical-align: top;
+}
+
+/* .main .container2 .box1{
+    width: 65.472028%;
+    height: 30.513176%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .container2 .box1 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 .box2{
+    width: 31.730769%;
+    height: 65.325936%;
+    position: absolute;
+    top: 0;
+    left: 68.094406%;
+}
+
+.main .container2 .box2 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 .box3{
+    width: 31.730769%;
+    height: 65.325936%;
+    position: absolute;
+    left: 0;
+    top: 33.738192%;
+}
+
+.main .container2 .box3 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 .box4{
+    width: 31.730769%;
+    height: 30.513176%;
+    position: absolute;
+    left: 34.353147%;
+    top: 33.738192%;
+}
+
+.main .container2 .box4 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 .box5{
+    width: 31.730769%;
+    height: 30.513176%;
+    position: absolute;
+    left: 34.353147%;
+    top: 67.476383%;
+}
+
+.main .container2 .box5 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 .box6{
+    width: 31.730769%;
+    height: 30.513176%;
+    position: absolute;
+    left: 68.094406%;
+    top: 67.476383%;
+}
+
+.main .container2 .box6 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container2 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    transition: all 2s;
+    -moz-transition: all 2s; 
+    -webkit-transition: all 2s; 
+    -o-transition: all 2s; 
+}
+
+.main .container2 .show{
+    left: 0;
+}
+
+.main .container2 .hide{
+    left: -100%;
+} */
+
+.main .btn-box{
+    width: 11.25rem;
+    height: 3.125rem;
+    background-color: rgb(253, 83, 98);
+    margin: 1rem auto;
+    border-radius: .2rem;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.main .btn-box a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    line-height: 3.125rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.main .btn-box a:hover{
+    background-color: rgb(253 ,117, 129);
+}
+
+.main .container3{
+    width: 100%;
+    height: 35rem;
+    font-size: 0;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.main .container3 .text-box{
+    width: 40%;
+    height: 100%;
+    margin-left: 55%;
+}
+
+.main .container3 .text-box .title{
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 7rem;
+    text-align: right;
+    color: rgb(67, 67, 67);
+}
+
+.main .container3 .text-box .title-en{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin: 0;
+    text-align: right;
+    color: rgb(67, 67, 67);
+}
+
+.main .container3 .text-box .text{
+    font-size: 1rem;
+    text-align: right;
+    padding: 0;
+    left: 0;
+    line-height: 1.8rem;
+    color: rgb(0, 0, 0);
+    font-size: .9rem;
+}
+
+.main .container3 .btn-box{
+    width: 11.25rem;
+    height: 3.125rem;
+    color: #ffffff;
+    border-radius: .25rem;
+    background-color: rgb(121, 89, 72);
+    float: right;
+    margin-top: 1rem;
+}
+
+.main .container3::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.main .container3 .btn-box a{
+    width: 100%;
+    height: 100%;
+    line-height: 3.125rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main .container3 .btn-box a:hover{
+    background-color: rgb(134, 105, 90);
+}
+
+.main .sanjiao-box {
+    width: 20.625rem;
+    height: 9.5rem;
+    background-image: url("../images/sanjiao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem auto;
+}
+
+.main .sanjiao-box .text{
+    text-align: center;
+    font-size: 1.125rem;
+    color: rgb(153, 153, 153);
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.main .sanjiao-box .title{
+    text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    color: rgb(67, 67, 67);
+    font-size: 1.875rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.main .sanjiao-box .title:hover{
+    color:rgb(253, 83, 98);
+}
+
+.main .container4{
+    width: 100%;
+    height: 39.75rem;
+    background-image: url("../images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem auto;
+}
+
+.main .container4 .content{
+    width: 70rem;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.main .container4 .content .box1{
+    width: 62.857143%;
+    height: 33.490566%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .container4 .content .box1 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container4 .content .box2{
+    width: 36.517857%;
+    height: 33.490566%;
+    position: absolute;
+    top: 0;
+    left: 63.75%;
+}
+
+.main .container4 .content .box2 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container4 .content .box3{
+    width: 31.071429%;
+    height: 64.779874%;
+    position: absolute;
+    top: 35.062893%;
+    left: 0;
+}
+
+.main .container4 .content .box3 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container4 .content .box4{
+    width: 31.071429%;
+    height: 64.779874%;
+    position: absolute;
+    top: 35.062893%;
+    left: 31.964286%;
+}
+
+.main .container4 .content .box4 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container4 .content .box5{
+    width: 36.517857%;
+    height: 64.779874%;
+    position: absolute;
+    top: 35.062893%;
+    left: 63.928571%;
+}
+
+.main .container4 .content .box5 .img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .container4 .content img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    transition: all 1s;
+    -moz-transition: all 1s; 
+    -webkit-transition: all 1s; 
+    -o-transition: all 1s; 
+}
+
+.main .container4 .content .show{
+    top: 0;
+}
+
+.main .container4 .content .hide{
+    top: -100%;
+}
+
+.main .news{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.main .news .title{
+    font-size: 1.875rem;
+    text-align: center;
+    padding: .5rem 0;
+    color: rgb(67, 67, 67);
+    margin: 0;
+    cursor: pointer;
+}
+
+.main .news .title-en{
+    font-size: 1rem;
+    color: rgb(204, 204, 204);
+    padding: .5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.main .news .title:hover{
+    color: rgb(253, 83, 98);
+}
+
+.main .container5{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.main .container5 .left{
+    width: 40%;
+    height: 19.75rem;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container5 .left img{
+    max-height: 100%;
+}
+
+.main .container5 .right{
+    width: 49%;
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+    height: 19.75rem;
+    font-size: 0;
+}
+
+.main .container5 .right .box{
+    width: 100%;
+    height:4.4375rem;
+    padding: 1rem 0;
+    border-bottom: .1rem dotted rgb(153, 153, 153);
+}
+
+.main .container5 .right .box .time{
+    width: 4.375rem;
+    height: 4.374rem;
+    background-color: #fd5362;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container5 .right .box .time .day{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding-top: .25rem;
+}
+
+.main .container5 .right .box .time .day2{
+    font-size: .75rem;
+    color: #ffffff;
+    margin: 0;
+    padding: .25rem 0;
+    text-align: center;
+}
+
+.main .container5 .right .box .content{
+    width: 85%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container5 .right .box .content .title{
+    font-size: 1.125rem;
+    color: #434343;
+    margin: 0;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+.main .container5 .right .box .content .title:hover{
+    color: rgb(253, 83, 98);
+}
+
+.main .container5 .right .box .content .text{
+    color: #666666;
+    font-size: .75rem;
+    padding-left: 2rem;
+    margin: 0;
+    padding-top: .5rem;
+}
+
+.main .news2{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.main .news2 .title{
+    width: 7rem;
+    height: 7rem;
+    margin: auto;
+}
+
+.main .news2 .title img{
+    max-width: 100%;
+}
+
+.main .news2 .text{
+    text-align: center;
+    font-size: 1.125rem;
+    color: rgb(136, 136, 136);
+    padding: 1rem 0;
+}
+
+.main .container6 {
+    width: 100%;
+    margin: 1rem auto;
+    height: 15.9375rem;
+    background-image: url("../images/bg4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.main .container6 .title{
+    font-size: 3.125rem;
+    color: rgb(106, 168, 79);
+    padding-left: 40%;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.main .container6 .text{
+    font-size: 1.375rem;
+    color: #ffffff;
+    margin-left: 40%;
+    text-align: center;
+}

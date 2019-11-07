@@ -1,0 +1,97 @@
+.main{
+    width: 100%;
+}
+
+.main .container1{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 0;
+}
+
+.main .container1 .list{
+    width: 30%;
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    vertical-align: top;
+    font-size: 0;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.main .container1 .list:hover{
+    border-color: #fd5362;
+}
+
+.main .container1 .list .img-box{
+    width: 100%;
+    margin-bottom: 3rem;
+    overflow: hidden;
+}
+
+.main .container1 .list .img-box img{
+    max-width: 100%;
+}
+
+.main .container1 .list .text-box{
+    width: 100%;
+}
+
+.main .container1 .list .text-box .title{
+    width: 100%;
+    font-size: .85rem;
+    line-height: .85rem;
+    padding-bottom: .85rem;
+    color: #5A5A5A;
+    margin-left: 10%;
+}
+
+.main .container1 .list .text-box .type{
+    width: 100%;
+    font-size: .85rem;
+    line-height: .85rem;
+    color: #FD5362;
+    margin-left: 10%;
+}
+
+.main .btn-box{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.main .btn-box .pre,
+.main .btn-box .next{
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.main .btn-box .number-box{
+    max-width: 10rem;
+    height: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.main .btn-box .number-box button{
+    width: 2rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 2rem;
+    text-align: center;
+    font-size: .9rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    border-radius: .2rem;
+}

@@ -1,0 +1,122 @@
+.main{
+    width: 100%;
+}
+
+.main .container1{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 0;
+}
+
+.main .container1 .left{
+    width: 50%;
+    height: 13.125rem;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container1 .right{
+    width: 50%;
+    height: 13.125rem;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main .container1 .left .top-box{
+    width: 100%;
+    height: 50%;
+    border: .1rem solid #cccccc;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.main .container1 .left .top-box .title-en{
+    font-size: 1.5rem;
+    color: #5A5A5A;
+    line-height: 1.5rem;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+.main .container1 .left .top-box .title{
+    font-size: 1.5rem;
+    color: #5A5A5A;
+    line-height: 1.5rem;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+.main .container1 .left .bottom-box{
+    width: 100%;
+    height: 50%;
+}
+
+.main .container1 .left .bottom-box .title{
+    font-size: 1.875rem;
+    color: #434343;
+    padding: 1.5rem 0 0 1.5rem;
+    line-height: 1.875rem;
+}
+
+.main .container1 .left .bottom-box .text{
+    font-size: .75rem;
+    line-height: .75rem;
+    color: #666666;
+    padding: 1.5rem 0 0 1.5rem;
+}
+
+.main .container1 .right .list{
+    width: 100%;
+    height: 2.375rem;
+    font-size: 0;
+    margin-top: 1rem;
+}
+
+.main .container1 .right .list .img{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    margin-left: 5%;
+}
+
+.main .container1 .right .list .text-box{
+    width: 65%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .right .list .text-box .type{
+    font-size: .75rem;
+    line-height: .75rem;
+    color: #434343;
+    padding-top: .5rem;
+}
+
+.main .container1 .right .list .text-box .text{
+    font-size: .75rem;
+    line-height: .75rem;
+    color: #434343;
+    margin-top: .5rem;
+}
+
+.main .container1 .right .list .img img{
+    max-height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.main .container1 .right .list:first-child{
+    margin-top: 0;
+}
+
+.main .container2{
+    width: 90%;
+    margin: 1rem auto;
+    height: 22.5rem;
+}
+
+.amap-marker:first-child .amap-icon img {
+    max-width: 20px;
+}

@@ -1,0 +1,63 @@
+.main{
+    width: 100%;
+}
+
+.main .container1{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 0;
+}
+
+.main .container1 .left{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container1 .left img{
+    max-width: 100%;
+}
+
+.main .container1 .right{
+    width: 50%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .right .title{
+    font-size: 1.875rem;
+    color: #000000;
+    font-weight: normal;
+    padding-left: 5rem;
+    margin: 0;
+}
+
+.main .container1 .right .title-en{
+    font-size: 1.875rem;
+    color: rgb(204, 204, 204);
+    margin: 0;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.main .container1 .right .text{
+    font-size: .875rem;
+    color: #666666;
+    line-height: 1.4rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+.main .container1 .text-box{
+    padding-left: 5rem;
+}
+
+.main .container1 .right .list{
+    color: #666666;
+    font-size: .875rem;
+    margin: 0;
+    padding-top: 1rem;
+}

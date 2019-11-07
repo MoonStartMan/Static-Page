@@ -1,0 +1,103 @@
+.main{
+    width: 100%;
+}
+
+.main .container1{
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.main .container1 .list{
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 0;
+}
+
+.main .container1 .list .img{
+    width: 30%;
+    height: auto;
+    font-size: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main .container1 .list .img img{
+    max-width: 100%;
+}
+
+.main .container1 .list .text-box{
+    width: 60%;
+    height: auto;
+    margin-left: 5%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.main .container1 .list .text-box .title{
+    font-size: 1.75rem;
+    color: #434343;
+    line-height: 1.75rem;
+    cursor: pointer;
+}
+
+.main .container1 .list .text-box .title:hover{
+    color: #fd5362;
+}
+
+.main .container1 .list .text-box .time{
+    font-size: .75rem;
+    color: #929292;
+    line-height: .75rem;
+    padding: 1.5rem 0;
+}
+
+.main .container1 .list .text-box .text{
+    font-size: .75rem;
+    line-height: 1rem;
+    color: #5A5A5A;
+}
+
+.main .btn-box{
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.main .btn-box .pre,
+.main .btn-box .next{
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+.main .btn-box .number-box{
+    max-width: 10rem;
+    height: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.main .btn-box .number-box button{
+    width: 2rem;
+    height: 2rem;
+    outline: none;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 2rem;
+    text-align: center;
+    font-size: .9rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+    border-radius: .2rem;
+}

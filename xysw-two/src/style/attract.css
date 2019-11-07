@@ -1,0 +1,184 @@
+.main{
+    width: 100%;
+}
+
+.main .container1 {
+    width: 90%;
+    margin: 1rem auto;
+    height: 28.3125rem;
+    font-size: 0;
+    position: relative;
+}
+
+.main .container1 .left{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .left .title{
+    width: 80%;
+    font-size: 1.5rem;
+    color: #000000;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+    margin-top: 5rem;
+}
+
+.main .container1 .left .text{
+    width: 70%;
+    font-size: .75rem;
+    color: #5A5A5A;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 20%;
+}
+
+.main .container1 .right{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .right .box{
+    width: 10.75rem;
+    height: 3.125rem;
+    background-color: #FC5361;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 3.125rem;
+    margin-left: 20%;
+    margin-top: 5rem;
+}
+
+.main .container1 .right .text-box{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 2rem;
+}
+
+.main .container1 .right .text-box p{
+    font-size: .75rem;
+    color: #5A5A5A;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+}
+
+.main .container1 .line{
+    width: .5625rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.main .container1 .line img{
+    max-height: 100%;
+}
+
+.main .container2{
+    width: 90%;
+    margin: 1rem auto;
+    height: 39.110625rem;
+    font-size: 0;
+}
+
+.main .container2 .left{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container2 .left img{
+    max-height: 100%;
+}
+
+.main .container2 .right{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container2 .right .title{
+    font-size: 1.625rem;
+    color: #434343;
+    margin-top: 2rem;
+    margin-left: 20%;
+}
+
+.main .container2 .right .text-box{
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 20%;
+}
+
+.main .container2 .right .text-box .text-title{
+    font-size: 1.125rem;
+    color: #434343;
+    margin: 2rem 0;
+}
+
+.main .container2 .right .text-box p{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    color: #5A5A5A;
+}
+
+.main .container3{
+    width: 100%;
+    border-bottom: .1rem solid #cccccc;
+}
+
+.main .container3 .top{
+    width: .5625rem;
+    height: 4rem;
+    margin: 1rem auto;
+    background-image: url("../images/attract/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.main .container3 .bottom{
+    width: 41.9375rem;
+    height: 25.2625rem;
+    margin: 1rem auto;
+    background-image: url("../images/attract/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.main .container3 .bottom .title{
+    font-size: 1.375rem;
+    color: #000000;
+    line-height: 1.375rem;
+    text-align: center;
+    padding-top: 20%;
+    letter-spacing: .04rem;
+}
+
+.main .container3 .bottom .box{
+    width: 15.75rem;
+    height: 3.125rem;
+    background-color: #FC5361;
+    color: #ffffff;
+    margin: 5% auto;
+    text-align: center;
+    line-height: 3.125rem;
+    font-weight: normal;
+    letter-spacing: .04rem;
+}

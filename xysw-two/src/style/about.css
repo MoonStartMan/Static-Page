@@ -1,0 +1,50 @@
+.main{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.main .tab{
+    width: 100%;
+}
+
+.main .tab .img-box{
+    width: 100%;
+}
+
+.main .tab .img-box img{
+    max-width: 100%;
+}
+
+.main .tab .title{
+    width: 100%;
+    font-size: 1rem;
+    color: #5A5A5A;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .tab .title-en{
+    width: 100%;
+    height: 2rem;
+    font-size: .9rem;
+    color: #cccccc;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .tab .text{
+    width: 100%;
+    line-height: 1.5rem;
+    color: #5A5A5A;
+    text-indent: 1.25rem;
+    font-size: .9rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1rem;
+}

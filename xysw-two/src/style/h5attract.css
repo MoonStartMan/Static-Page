@@ -1,0 +1,107 @@
+.main{
+    width: 100%;
+}
+
+.main .title{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.main .title-en{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .95rem;
+    color: #cccccc;
+}
+
+.main .tab{
+    width: 100%;
+    border: .1rem solid #FC5361;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: .5rem 0;
+}
+
+.main .tab .tab-title{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #000000;
+    margin: .5rem 0;
+}
+
+.main .tab .tab-title-small {
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .9rem;
+    color: #5A5A5A;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.main .tab .text{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 1rem;
+    font-size: .9rem;
+    color: #5A5A5A;
+}
+
+.main .tab .text2{
+    font-size: .9rem;
+    color: #5A5A5A;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .2rem 1rem;
+}
+
+.main .tab2{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: .1rem solid #5A5A5A;
+}
+
+.main .tab2 .tab2-title{
+    width: 12rem;
+    height: 3rem;
+    margin: 0 auto;
+    background-color: #FC5361;
+    text-align: center;
+    line-height: 3rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.main .tab2 .text2{
+    font-size: .9rem;
+    color: #5A5A5A;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .2rem 1rem;
+}
