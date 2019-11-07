@@ -1,0 +1,168 @@
+html{
+    font-size: 16px;
+}
+
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+.top{
+    width: 100%;
+    height: 3rem;
+    background-image: url("../img/购买须知背景图.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.text{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.img-btn{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-btn img{
+    max-width: 2rem;
+}
+
+.content{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.content-warp{
+    width: 100%;
+}
+
+.title{
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    color: #696969;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 3rem;
+}
+
+.content-lists{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.content-lists .content-list{
+    width: 100%;
+    padding: 1rem .5rem;
+    height: 7.75rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.content-lists .content-list .list-img{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-lists .content-list .list-img img{
+    width: 90%;
+    height: 80%;
+}
+
+.content-lists .content-list .list-content{
+    width: 65%;
+    height: 80%;
+}
+
+.content-lists .content-list .list-content .list-top{
+    width: 98%;
+    line-height: 2rem;
+    font-size: .9rem;
+    color: #292929;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-right: .5rem;
+}
+
+.content-lists .content-list .list-content .list-bottom{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-lists .content-list .list-content .list-bottom .list-bottom-left{
+    width: 30%;
+    height: 100%;
+    font-size: 1rem;
+    color: #6483ff;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.content-lists .content-list .list-content .list-bottom .list-bottom-right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content-lists .content-list .list-content .list-bottom .list-bottom-right img{
+    max-width: 50%;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

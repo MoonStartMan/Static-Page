@@ -1,0 +1,272 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+*{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #a5b0f1;
+    font-size: .9rem;
+}
+
+.menu {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .5rem;
+    background-color: #ffffff;
+}
+
+.menu-left,
+.menu-right{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu-left span{
+    color: #292929;
+    font-size: 1rem;
+}
+
+.menu-left img{
+    max-height: 1rem;
+    padding-left: .2rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.menu-right img{
+    max-height: 2.5rem;
+}
+
+.menu-lists{
+    position: absolute;
+    bottom: -6rem;
+    width: 100%;
+    height: 6rem;
+    display: none;
+}
+
+.menu-list{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #ffffff;
+}
+
+.content{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.content-list{
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+}
+
+.content-list:last-child{
+    margin-bottom: 0;
+}
+
+.list-top{
+    width: 100%;
+    line-height: 2rem;
+    font-size:1rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.list-bottom{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-bottom-left{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.list-bottom-right{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.list-bottom-right span{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #656565;
+    font-size: .8rem;
+}
+
+.list-bottom-right .img-box{
+    width: 5rem;
+    height: 2.5rem;
+    margin-left: .5rem;
+    background-image: url("../img/打卡/马上学习1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: .6rem;
+}
+
+.list-color{
+    color: #7d96ff;
+}
+
+.cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.inline{
+    width: 80%;
+    height: 60%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #ffffff;
+    margin: auto;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+}
+
+.inline-title{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.inline-content{
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: .2rem 2rem;
+    font-size: .8rem;
+    line-height:1.4rem;
+    color: #292929;
+}
+
+.img-box{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box img{
+    max-height: 1.5rem;
+}
+
+.img-btn{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 10rem;
+    height: 3rem;
+    background-image: url("../img/打卡/马上学习1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 3rem;
+    font-size: .8rem;
+    letter-spacing: .2rem;
+}
