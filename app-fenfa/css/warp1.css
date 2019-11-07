@@ -1,0 +1,175 @@
+.warp1-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.warp1-text1{
+    position: absolute;
+    top: 27.44680851%;
+    left: 21.30208333%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: .2rem;
+    opacity: 0;
+}
+
+.warp1-text2{
+    position: absolute;
+    top: 33.9787234%;
+    left: 21.30208333%;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 1rem;
+    opacity: 0;
+}
+
+.warp1-text3{
+    position: absolute;
+    top: 38.40425532%;
+    left: 21.30208333%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 3.75rem;
+    opacity: 0;
+}
+
+.warp1-text4{
+    position: absolute;
+    top: 46.70212766%;
+    left: 21.30208333%;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 1.375rem;
+    opacity: 0;
+}
+
+.warp1-btn{
+    width: 14.58333333%;
+    height: 7.44680851%;
+    position: absolute;
+    top: 56.80851064%;
+    left: 21.30208333%;
+    border: 2px solid #9999FF;
+    display: table;
+    opacity: 0;
+}
+
+.warp1-btn a{
+    display: table-cell;
+    font-size: 1.625rem;
+    color: #9999FF;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.warp1-btn2{
+    width: 14.58333333%;
+    height: 7.44680851%;
+    position: absolute;
+    top: .5106383%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #9999FF;
+    display: table;
+    opacity: 0;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: 1.625rem;
+    color: #9999FF;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.warp1-img{
+    width: 9.47916667%;
+    height: 24.36170213%;
+    position: absolute;
+    left: 49.89583333%;
+    top: 47.9787234%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../image/warp1-img.png");
+    z-index: 1;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.warp1-img img{
+    width: 17.83783784%;
+    height: 15.72052402%;
+    position: absolute;
+    top: 34.06113537%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+}
+
+.warp1-circle{
+    width: 23.4375%;
+    height: 48.08510638%;
+    position: absolute;
+    top: 24.04255319%;
+    left: 54.0625%;
+    opacity: 0;
+}
+
+.warp1-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.warp1-img1{
+    width: 26%;
+    height: 13.71681416%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.warp1-icon{
+    width: 9.33333333%;
+    height: 9.2920354%;
+    position: absolute;
+    opacity: 0;
+}
+
+.warp1-icon.one{
+    top: 18.88888889%;
+    left: 18.5840708%;
+}
+
+.warp1-icon.two{
+    top: -2.65486726%;
+    left: 42.66666667%;
+}
+
+.warp1-icon.three{
+    top: 1.7699115%;
+    left: 68.44444444%;
+}
+
+.warp1-icon.four{
+    top: 21.23893805%;
+    left: 60.44444444%;
+}
+
+.warp1-icon.five{
+    top: 28.76106195%;
+    left: 84%;
+}

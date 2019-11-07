@@ -1,0 +1,313 @@
+@keyframes showAct {
+    0%{
+        transform: translateY(25rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+}
+
+@keyframes warp1imgGo1 {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-160%);
+        opacity: 0;
+    }
+}
+
+@keyframes warp1imgGo2 {
+    0%{
+        transform: translateY(160%);
+        opacity: 1;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-160%);
+        opacity: 0;
+    }
+}
+
+@keyframes warp1imgGo3 {
+    0%{
+        transform: translateY(160%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes warp1Show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes warp1Rotate {
+    0% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(72deg);
+    }
+    40% {
+        transform: rotate(144deg);
+    }
+    60% {
+        transform: rotate(216deg);
+    }
+    80% {
+        transform: rotate(288deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes warp3Click {
+    0% {
+        opacity: 0;
+        transform: translateX(200rem) translateY(200rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+}
+
+@keyframes warp3Change {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes warp3Loop {
+    0% {
+        transform: translateY(0rem);
+    }
+    20% {
+        transform: translateY(5rem);
+    }
+    40% {
+        transform: translateY(10rem);
+    }
+    60% {
+        transform: translateY(15rem);
+    }
+    80% {
+        transform: translateY(20rem);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(25rem);
+    }
+}
+
+.addShow{
+    animation:showAct 1s ease;
+    -o-animation:showAct 1s ease;
+    -moz-animation:showAct 1s ease;
+    -webkit-animation:showAct 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.addWarp1img1{
+    animation:warp1imgGo1 1s ease;
+    -o-animation:warp1imgGo1 1s ease;
+    -moz-animation:warp1imgGo1 1s ease;
+    -webkit-animation:warp1imgGo1 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.addWarp1img2{
+    animation:warp1imgGo2 1.5s ease;
+    -o-animation:warp1imgGo2 1.5s ease;
+    -moz-animation:warp1imgGo2 1.5s ease;
+    -webkit-animation:warp1imgGo2 1.5s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+.addWarp1img3{
+    animation:warp1imgGo3 1s ease;
+    -o-animation:warp1imgGo3 1s ease;
+    -moz-animation:warp1imgGo3 1s ease;
+    -webkit-animation:warp1imgGo3 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+.addWarp1Circle{
+    animation:warp1Rotate 5s ease;
+    -o-animation:warp1Rotate 5s ease;
+    -moz-animation:warp1Rotate 5s ease;
+    -webkit-animation:warp1Rotate 5s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+.addWarp1Show1 {
+    animation:warp1Show 1s ease;
+    -o-animation:warp1Show 1s ease;
+    -moz-animation:warp1Show 1s ease;
+    -webkit-animation:warp1Show 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+.addWarp1Show2 {
+    animation:warp1Show 1s ease;
+    -o-animation:warp1Show 1s ease;
+    -moz-animation:warp1Show 1s ease;
+    -webkit-animation:warp1Show 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 4s;
+    -o-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.addWarp1Show3 {
+    animation:warp1Show 1s ease;
+    -o-animation:warp1Show 1s ease;
+    -moz-animation:warp1Show 1s ease;
+    -webkit-animation:warp1Show 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 5s;
+    -o-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+.addWarp1Show4 {
+    animation:warp1Show 1s ease;
+    -o-animation:warp1Show 1s ease;
+    -moz-animation:warp1Show 1s ease;
+    -webkit-animation:warp1Show 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+
+.addWarp1Show5 {
+    animation:warp1Show 1s ease;
+    -o-animation:warp1Show 1s ease;
+    -moz-animation:warp1Show 1s ease;
+    -webkit-animation:warp1Show 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 7s;
+    -o-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    -webkit-animation-delay: 7s;
+}
+
+.addWarp3Click {
+    animation:warp3Click 1s ease;
+    -o-animation:warp3Click 1s ease;
+    -moz-animation:warp3Click 1s ease;
+    -webkit-animation:warp3Click 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.addWarp3Change {
+    animation:warp3Change 1s ease;
+    -o-animation:warp3Change 1s ease;
+    -moz-animation:warp3Change 1s ease;
+    -webkit-animation:warp3Change 1s ease;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+.addWarp3Loop {
+    animation:warp3Loop 1s ease 3;
+    -o-animation:warp3Loop 1s ease 3;
+    -moz-animation:warp3Loop 1s ease 3;
+    -webkit-animation:warp3Loop 1s ease 3;
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}

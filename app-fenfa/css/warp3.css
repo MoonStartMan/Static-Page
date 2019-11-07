@@ -1,0 +1,115 @@
+.warp3-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.warp3-text1{
+    position: absolute;
+    top: 26.80851064%;
+    left: 21.30208333%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 3.75rem;
+    letter-spacing: .2rem;
+    opacity: 0;
+}
+
+.warp3-text2{
+    position: absolute;
+    top: 36.25531915%;
+    left: 21.30208333%;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 1.375rem;
+    opacity: 0;
+}
+
+.warp3-text3{
+    position: absolute;
+    top: 40.25531915%;
+    left: 21.30208333%;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.5rem;
+    opacity: 0;
+}
+
+.warp3-text4{
+    position: absolute;
+    top: 46.70212766%;
+    left: 21.30208333%;
+    font-weight: normal;
+    color: #ffffff;
+    font-size: 1rem;
+    opacity: 0;
+}
+
+.warp3-btn{
+    width: 14.58333333%;
+    height: 7.44680851%;
+    position: absolute;
+    top: 58.08510638%;
+    left: 21.30208333%;
+    border: 2px solid #9999FF;
+    display: table;
+    opacity: 0;
+}
+
+.warp3-btn a{
+    display: table-cell;
+    font-size: 1.625rem;
+    color: #9999FF;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.warp3-img1{
+    width: 24.11458333%;
+    height: 62.65957447%;
+    position: absolute;
+    top: 19.25531915%;
+    left: 49.58333333%;
+    opacity: 0;
+}
+
+.warp3-img2,.warp3-img2hide{
+    width: 15.52083333%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 56.5625%;
+    opacity: 0;
+}
+
+.warp3-img3{
+    width: 11.875%;
+    height: 46.70212766%;
+    position: absolute;
+    top: 17.87234043%;
+    left: 59.32291667%;
+    opacity: 0;
+}
+
+.warp3-img4{
+    width: 13.90625%;
+    height: 39.14893617%;
+    position: absolute;
+    top: 49.36170213%;
+    left: 60.57291667%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.warp3-text5{
+    font-size: 1.125rem;
+    color: #99FFFF;
+    font-weight: 400;
+    position: absolute;
+    top: 49.9787234%;
+    left: 61.77083333%;
+    text-decoration: underline;
+    opacity: 0;
+}
