@@ -1,0 +1,206 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* 顶部按钮 */
+
+.top-btns{
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-btn{
+    margin: 1.5rem auto;
+    background-color: #66AF08;
+    border-radius: .5rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.top-btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.top-btn:hover,
+.top-btn:hover a{
+    background-color: #ffffff;
+    color: #66AF08;
+}
+
+/* 文字滚动部分 */
+.marquee{
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2.8rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/* 代表公司查询 */
+.div-select{
+    width: 85%;
+    margin: 1rem auto;
+    padding-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.div-select a{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #66AF08;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.div-select a:hover{
+    background-color: #ffffff;
+    color: #66AF08;
+}
+
+/* 商品列表 */
+.table{
+    width: 85%;
+    margin: 1rem auto 6rem auto;
+}
+
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #66AF08;
+    border: 2px solid #66AF08;
+}
+
+thead tr th:first-child{
+    width: 30%;
+}
+
+thead tr th:last-child{
+    width: 70%;
+}
+
+tbody tr td{
+    border: 2px solid #66AF08;
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    position: relative;
+}
+
+tbody tr td img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3rem;
+    width: 2rem;
+    height: 2rem;
+    margin: auto;
+}
+
+tbody tr:nth-child(2n-1){
+    background-color: #228B22;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(2n-2) {
+    background-color: #ffffff;
+    color: #66AF08;
+}
+
+/* 网站底部 */
+.footer{
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    font-size: 2rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #f00;
+}
+
+/* 隐藏部分 */
+.cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
+.cover-inline{
+    width: 70rem;
+    height: 95%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.cover-text{
+    width: 95%;
+    margin: auto;
+    text-indent: 1.25rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.title {
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cover-btn{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background-color: #66AF08;
+    border-radius: .3rem;
+    cursor: pointer;
+}

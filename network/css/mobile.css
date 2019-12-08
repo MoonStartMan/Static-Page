@@ -1,0 +1,181 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/* 顶部菜单 */
+.menu{
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}
+
+.menu-btn{
+    display: inline-block;
+    width: 31.2%;
+    height: 5rem;
+    background-color: #66AF08;
+    margin: 1%;
+}
+
+.menu-btn a{
+    display: block;
+    width: 100%;
+    line-height: 5rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+/* 文字滚动 */
+.marquee{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 1rem auto;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* 代表公司查询 */
+.div-select{
+    width: 95%;
+    margin: auto;
+}
+
+.div-select a{
+    display: block;
+    width: 12rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    background-color: #66AF08;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.table{
+    width: 95%;
+    margin: 1rem auto 6rem auto;
+}
+
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr th{
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #66AF08;
+    padding: 1rem 0 ;
+    border: 2px solid #66AF08;
+}
+
+thead tr th:first-child{
+    width: 30%;
+}
+
+thead tr th:last-child{
+    width: 70%;
+}
+
+tbody tr td{
+    font-size: 1.6rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border: 2px solid #66AF08;
+}
+
+tbody tr:nth-child(2n-1){
+    background-color:#228B22;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(2n-2) {
+    background-color: #ffffff;
+    color: #66AF08;
+}
+
+/* 网站底部 */
+.footer{
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(256,256,256,0.8);
+    font-size: 1rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #f00;
+}
+
+/* 隐藏部分 */
+.cover{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.cover-inline{
+    width: 80%;
+    height: 70%;
+    background-color: rgba(0,0,0,0.65);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.cover-title{
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.4rem;
+    padding: 1rem;
+}
+
+.cover-text{
+    width: 80%;
+    max-height: 76%;
+    overflow-y: auto;
+    margin: 6% auto;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.cover-btn{
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    width: 5rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    background-color: #66AF08;
+    color: #ffffff;
+}

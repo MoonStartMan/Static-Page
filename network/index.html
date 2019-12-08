@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content=" ">
+    <title>网站建设</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <script>
+        // 设备检查
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+
+        if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+            console.log("1");
+        } else {
+            window.location.href = "./mobile/index.html";
+        }
+
+        // 屏幕宽度检查
+        (function(doc,win){
+        var doc = doc.documentElement;
+        window.onload = function() {
+            Resize();
+        }
+        // 当DOM加载后执行
+        win.addEventListener('resize', Resize, false);
+        // 当屏幕发生变化时执行
+        function Resize(){
+            doc.style.fontSize=doc.clientWidth/192 +'px'; 
+            //192为1920/10计算得出的值，当编写浏览器发生变化时可用编写的浏览器宽度/16得出这个固定值;
+        }
+    })(document,window)
+    </script>
+
+    <!-- 隐藏部分 -->
+    <div class="cover">
+        <div class="cover-inline">
+            <p class="title">请认真阅读以下内容</p>
+            <div class="cover-text">
+                <br>我们的宗旨是：品质保证，合作共赢！<br>
+                <br>请先查询本站首页导航下方的代表查询按钮，查询是否真实为本站合作伙伴，以防被骗，站长管理员邮箱qqloudeng@163.com
+                <br>产品价格区别：本页所有系统的功能和质量都是一样的，并不是费用多少来决定产品质量，只是风格不一样，因为版权和工程量的问题导致价格不统一。<br>    
+                <br>营销入口门槛：本平台的所有产品微信QQ都不会拦截（演示站和官网除外），不会被劫持，包括所有浏览器，所有地区都不会被劫持。 <br>
+                <br>关于定制规则：任何风格，任何功能，任何系统都可以定制，用最低的成本做到最好的系统。
+                <br>系统安全策略：99%不会被DDOS攻击，99%不被黑客入侵篡改。<br>
+                <br>关于退款规则：<br>
+                <br>如果商品详情中带有“不满意全额退款”标识，则购买该商品后，在交易担保期内，均可行使该项退款权利。
+                <br>如用户存在下列任何一种情况的不支持全额退款：
+                <br>1.在付款后1个月内未通过我方提交服务需求的情况。
+                <br>2.服务过程中，超出1个月未向我方提供项目所需资料，导致项目无法继续实施被动停止的情况；
+                <br>3.服务过程中，新增加需求，并超出接单时承诺的服务范围的情况；
+                <br>4.服务过程中，超出1个月未进行“反馈或确认”的情况，或者因未及时反馈/确认导致服务项目已经过期的情况；
+                <br>
+            </div>
+            <div class="cover-btn">
+                收起
+            </div>
+        </div>
+    </div>
+
+    <!-- 顶部按钮 -->
+    <div class="top-btns">
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">手机版系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">YLC系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">CP系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">JR系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">直播聊天室</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">商城</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">企业网站</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">营销推广</a>
+        </div>
+    </div>
+
+    <!-- 滚动文字部分 -->
+    <marquee behavior="alternate" align="bottom" class="marquee">
+        <span> 最新活动通知：本站招收终身学徒6000元、创业学徒、网赚学徒、编程学徒、黑客学徒、下单请联系业务代表，祝您愉快、合家欢乐！</span>
+    </marquee>
+
+    <!-- 代表公司查询 -->
+    <div class="div-select">
+        <a href="javascript:;" target="_blank">代表公司查询</a>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>商品</th>
+                    <th>商品详细说明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        系统定制/网站开发
+                    </td>
+                    <td>CP,QP,JR,YLC等系统定制！</td>
+                </tr>
+                <tr>
+                    <td>
+                            <img src="./img/hot.png" alt="">
+                            <img src="./img/hot.png" alt="">
+                            <img src="./img/hot.png" alt="">
+                        不死防御服务器</td>
+                    <td>香港服务器CN2+2T不死防御,速度与防御同时拥有。1.香港/美国;2.移动/联通/电信，BGP/三网直连/CN2=1000M带宽;3.2T不死防御/打死退款;4.SSD固态盘;5.不限内容;7.安全稳定快速，质量保证,不满意全额退款！</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        定制全新微信公众号</td>
+                    <td>可用于微信登录，开发网页等用途</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        代办个体/公司执照</td>
+                    <td>1、个体执照：身份证正反面照片即可 法人不到场; 2、公司执照：地址挂靠+4章+对公户+法人不到场.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        抖音号认证</td>
+                    <td>抖音开店企业认证开通蓝V，抖音发布60秒视频</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        抖音大量真实刷粉</td>
+                    <td>抖音关注，抖音评论，抖音上热门，抖音点赞</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        苹果APP证书签名</td>
+                    <td>苹果证书签名，IPA，ios，网站页打包app，掉了秒补</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        微信不死二级子域名</td>
+                    <td>什么是微信不死域名：主域名被封，子域名不会被封，这就叫微信不死域名</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        备案域名</td>
+                    <td>域名带备案+已备案域名出售，精品靓域名出售</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        SSL通配符收费证书</td>
+                    <td>支持通配符，对网站性能好，速度快，防劫持+防黑客，稳定好用，美国知名原厂证书</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        原生支付宝支付账户</td>
+                    <td>原生支付宝API回调签约，已认证/代认证</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        银行卡三件套</td>
+                    <td>银行卡，U盾，绑定手机</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        实名微信</td>
+                    <td>已经通过银行卡实名认证过的微信</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        SEO关键词排名</td>
+                    <td>1. 真实流量，拒绝代理IP；2.支持刷百度排名，效果突出，助你轻松上首页；3.刷电商人气，淘宝、天猫、京东、苏宁等绝大多数电商平台店铺刷人气；3. 真实有效，基于网络互访原理，用户随机性，完全模拟鼠标和键盘操作。</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        网站劫持</td>
+                    <td>支持通杀：指定地区，指定网址，随机扫描，只要不是钱砸出来的网站，几乎神挡杀神佛挡杀佛！</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        网站入侵</td>
+                    <td>不是所有网站都能入侵，成功率一般都在50%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        <img src="./img/hot-normal.png" alt="">
+                        155555S手机靓号</td>
+                    <td>号码段：155555XXXXX，每月0套餐资费，可开无限流量</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        <img src="./img/hot.png" alt="">
+                        挖源码</td>
+                    <td>无论您要什么源码，我们都能给您挖出来，挖不出就搞，实在搞不到就做，吃这碗饭靠的就是实力</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 顶部按钮 -->
+    <div class="footer">
+        2019网赚潮流势不可挡，当你还在考虑时，别人已经赚钱了，不要再犹豫了，赶快联系业务代表下单吧！
+    </div>
+    <script>
+    function changeColor(){
+        var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+        color=color.split("|");
+        document.getElementsByClassName("footer")[0].style.color=color[parseInt(Math.random() * color.length)];
+        }
+    setInterval("changeColor()",500);
+    </script>
+</body>
+
+<script>
+    // 点击隐藏
+    var btn = document.getElementsByClassName("cover-btn")[0];
+    btn.onclick = function() {
+        document.getElementsByClassName("cover")[0].style.display = "none";
+    }
+</script>
+</html>
