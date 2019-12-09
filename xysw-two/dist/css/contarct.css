@@ -1,0 +1,397 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #231b14;
+}
+
+.header .top{
+    width: 90%;
+    margin: 0 auto ;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .top .img-box {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+
+.header .top .img-box .logo-text{
+    font-size: 1.5rem;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.header .top .text marquee .big-text{
+    font-size: 1.8rem;
+}
+
+.header .top .img-box img{
+    max-width: 100%;
+}
+
+.header .top .text{
+    width: 65%;
+    font-size: 1.8rem;
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: text-top;
+    text-align: right;
+}
+
+.header .top .text marquee{
+    vertical-align: middle;
+    margin-top: 1rem;
+}
+
+.header .line{
+    width: 100%;
+    margin: .1rem 0 .1rem 0;
+    height: .1rem;
+    background-color: #eeeeee;
+}
+
+.header .menu{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header .menu ul{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.header .menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    width: 14%;
+}
+
+.header .menu ::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    font-size: .875rem;
+    color: #666666;
+    width: 100%;
+    display: inline-block;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header .menu ul li a:hover{
+    color: rgba(253, 83, 98);
+}
+
+.footer{
+    width: 100%;
+    background-color: #303030;
+}
+
+.footer .left{
+    display: inline-block;
+    font-size: 0;
+    width: 50%;
+}
+
+.footer .right{
+    display: inline-block;
+    width: 40%;
+    font-size: 0;
+}
+
+.footer .right img{
+    max-width: 20%;
+    margin-left: 50%;
+}
+
+.footer .left p{
+    margin: 0;
+    padding: 0;
+}
+
+.footer .left p{
+    margin-left: 10%;
+    padding: .5rem 0;
+}
+
+.footer .left p span{
+    font-size:  .85rem;
+    color: #ffffff;
+}
+
+.container{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.container .img-box{
+    width: 100%;
+    height: 1.9375rem;
+}
+
+.container .img-box{
+    width: 100%;
+    height: 100%;
+}
+
+.container .img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .text-box{
+    width: 100%;
+}
+
+.container .text-box .title {
+    font-size: 1.625rem;
+    letter-spacing: .25rem;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0;
+    color: #888888;
+}
+
+.container .text-box .text{
+    font-size: 1.25rem;
+    color: #888888;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.container .content{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 0;
+}
+
+.container .content .box{
+    width: 25%;
+    height: 6.25rem;
+    display: inline-block;
+    font-size: 0;
+    border: .05rem solid rgb(217, 217, 217);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.container .content .box .img-box{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.container .content .box .img-box img{
+    width: 50%;
+    height: 50%;
+    margin: 20%;
+}
+
+.container .content .box .text-box{
+    width: 60%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+    font-size: 1rem;
+    color: rgb(102, 102, 102);
+    line-height: 6.25rem;
+}
+
+.container-top {
+    width: 100%;
+    margin: 1rem auto;
+    height: 15.9375rem;
+    background-image: url(../images/3714e2c95d5404f05a1dff8912090a6f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+.container-top .title{
+    font-size: 3.125rem;
+    color: rgb(106, 168, 79);
+    padding-left: 40%;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.container-top .text{
+    font-size: 1.375rem;
+    color: #ffffff;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.container-title{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.container-title .line{
+    width: 3.75rem;
+    height: .25rem;
+    background-color: #000000;
+    margin: 2rem auto;
+}
+
+.container-title p{
+    font-size: 1.875rem;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+}
+
+.main .container1{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 0;
+}
+
+.main .container1 .left{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container1 .left img{
+    max-width: 100%;
+}
+
+.main .container1 .right{
+    width: 50%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container1 .right .title{
+    font-size: 1.875rem;
+    color: #000000;
+    font-weight: normal;
+    padding-left: 5rem;
+    margin: 0;
+}
+
+.main .container1 .right .title-en{
+    font-size: 1.875rem;
+    color: rgb(204, 204, 204);
+    margin: 0;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.main .container1 .right .text{
+    font-size: .875rem;
+    color: #666666;
+    line-height: 1.4rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+.main .container2 {
+    width: 100%;
+    background-color: rgb(244, 243, 238);
+    height: 36.25rem;
+    margin: 2rem auto;
+}
+
+.main .container2 .content {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.main .container2 .left{
+    width: 45%;
+    display: inline-block;
+    font-size: 0;
+}
+
+.main .container2 .left .title{
+    font-size: 1.875rem;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 20%;
+    margin: 0;
+}
+
+.main .container2 .left .title-en{
+    font-size: 1.875rem;
+    color: #CCCCCC;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.main .container2 .left .text1{
+    color: #BD893F;
+    font-size: 1.125rem;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.main .container2 .left .text2{
+    font-size: .875rem;
+    color: #666666;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.main .container2 .right{
+    width: 55%;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.main .container2 .right img{
+    max-width: 90%;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.main .container1 .text-box{
+    padding-left: 5rem;
+}
+
+.main .container1 .right .list{
+    color: #666666;
+    font-size: .875rem;
+    margin: 0;
+    padding-top: 1rem;
+}
