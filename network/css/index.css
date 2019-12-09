@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/pcBg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -74,7 +74,7 @@ body {
 
 .slide{
     width: 30%;
-    background-color: #ffffff;
+    background-color: rgba(256, 256, 256, 0.8);
     border: 2px solid #66AF08;
     border-radius: 1rem;
     overflow: hidden;
@@ -84,6 +84,66 @@ body {
     -o-transform: scale(.9);
     -ms-transform: scale(.9);
     display: inline-block;
+    transition: all .5s;
+}
+
+.slide:hover{
+    box-shadow: 0 0 4rem #66AF08;
+}
+
+.slide:hover .icon-img img{
+    animation: goBack .5s;
+    -o-animation: goBack .5s;
+    -moz-animation: goBack .5s;
+    -webkit-animation: goBack .5s;
+}
+
+@keyframes goBack {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -3rem;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-o-keyframes goBack {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -3rem;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes goBack {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -3rem;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@-moz-keyframes goBack {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: -3rem;
+    }
+    100% {
+        top: 0;
+    }
 }
 
 .icon-img{
@@ -98,6 +158,7 @@ body {
 .icon-img img{
     width: 5rem;
     height: 5rem;
+    position: relative;
 }
 
 .sell-title{
