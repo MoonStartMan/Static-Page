@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="建站就找：建站16688,网址：ys.jz16688.com_速度全网最快，防御全网最高，价格全网最低，性能全网最稳，不满意退款，诚招总代理！企业网站建设，网站定制，网站开发，PHP网站源码">
+    <title>建站就找：建站16688,网址：ys.jz16688.com_速度全网最快，防御全网最高，价格全网最低，性能全网最稳，不满意退款，诚招总代理！企业网站建设，网站定制，网站开发，PHP网站源码</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <script>
+        // 设备检查
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+
+        if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM)) {
+            console.log("1");
+        } else {
+            window.location.href = "./mobile/index.html";
+        }
+    </script>
+
+       <!-- loading -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="first_object"></div>
+                    <div class="object" id="second_object"></div>
+                    <div class="object" id="third_object"></div>
+                </div>
+            </div>    
+        </div>
+
+        <script>
+        // 屏幕宽度检查
+        (function(doc, win) {
+            var doc = doc.documentElement;
+            window.onload = function() {
+                Resize();
+                document.getElementById("loading").style.display = "none";
+            }
+                // 当DOM加载后执行
+            win.addEventListener('resize', Resize, false);
+            // 当屏幕发生变化时执行
+            function Resize() {
+                doc.style.fontSize = doc.clientWidth / 192 + 'px';
+                //192为1920/10计算得出的值，当编写浏览器发生变化时可用编写的浏览器宽度/16得出这个固定值;
+            }
+        })(document, window)
+    </script>
+
+    <!-- 顶部按钮 -->
+    <div class="top-btns">
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">手机版系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">YLC系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">CP系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">JR系统</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">直播聊天室</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">商城</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">企业网站</a>
+        </div>
+        <div class="top-btn">
+            <a href="javascript:;" target="_blank">营销推广</a>
+        </div>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="sell">商品/说明</div>
+
+    <div class="container">
+        <div class="wrapper">
+            
+        </div>
+    </div>
+</body>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/jquery.js"></script>
+<script src="./js/index.js"></script>
+</html>

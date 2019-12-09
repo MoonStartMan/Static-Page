@@ -1,0 +1,103 @@
+.warp6-title{
+    width:100%;
+    font-size:3.125rem;
+    font-family:"SourceHanSansCN-Bold";
+    font-weight:bold;
+    color:rgba(102,153,255,1);
+    background:linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    text-align: center;
+    line-height: 3.125rem;
+    position: absolute;
+    top: 11.5625%;
+}
+
+.warp6-text{
+    width: 52.777778%;
+    height: 3.90625%;
+    position: absolute;
+    top: 18.4375%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #3366CC;
+    border-radius: 1.5625rem;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warp6-box{
+    width: 79.583333%;
+    height: 50.546875%;
+    top: 32.578125%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warp6-list{
+    width: 100%;
+    height: 15.455951%;
+    position: relative;
+    opacity: 0;
+}
+
+.warp6-list img{
+    width: 22.862129%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.warp6-list-text-box{
+    width: 76.425829%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 27.574171%;
+}
+
+.warp6-list-text-box.one{
+    height:63%; 
+}
+
+.warp6-list-text-box.two{
+    height:64%; 
+}
+
+.warp6-list-text-box.three{
+    height:61%; 
+}
+
+.warp6-list-text-box.four{
+    height:124%; 
+}
+
+.warp6-list-title{
+    font-size: 1.375rem;
+    color: #ffffff;
+    font-family:"SourceHanSansCN-Medium";
+    font-weight:500;
+    font-style:italic;
+}
+
+.warp6-list-text{
+    color: #CCCCFF;
+    font-size: 1.125rem;
+    font-family:"SourceHanSansCN-Regular";
+    font-weight:500;
+}

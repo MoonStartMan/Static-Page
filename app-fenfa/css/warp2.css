@@ -1,0 +1,87 @@
+.warp2-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.warp2-text1{
+    font-size: 3.75rem;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 34.64566929%;
+    left: 21.14583333%;
+    opacity: 0;
+}
+
+.warp2-text2{
+    font-size: 1.375rem;
+    color: #ffffff;
+    font-weight: normal;
+    position: absolute;
+    top: 44.20697413%;
+    left: 21.14583333%;
+    opacity: 0;
+}
+
+.warp2-btn{
+    width: 17.4563591%;
+    height: 7.87401575%;
+    position: absolute;
+    top: 58.49268841%;
+    left: 21.14583333%;
+    border: 2px solid #9999FF;
+    display: table;
+    opacity: 0;
+}
+
+.warp2-btn a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.625rem;
+    color: #9999FF;
+    text-decoration: none;
+}
+
+.warp2-img{
+    width: 25.3125%;
+    height: 53.99325084%;
+    position: absolute;
+    top: 25.75928009%;
+    left: 52.44791667%;
+}
+
+.warp2-img1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.warp2-img2{
+    width: 40.32921811%;
+    height: 40.83333333%;
+    position: absolute;
+    top: 56.25%;
+    left: 47.73662551%;
+    opacity: 0;
+}
+
+.warp2-bg{
+    width: 63.85416667%;
+    height: 82.67716535%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.warp2-bg img{
+    width: 100%;
+    height: 100%;
+}

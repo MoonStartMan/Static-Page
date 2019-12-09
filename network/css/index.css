@@ -1,0 +1,122 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* 顶部按钮 */
+
+.top-btns {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #548C00;
+    border-bottom: .2rem solid #66AF08;
+}
+
+.top-btn {
+    background-color: #548C00;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 .5rem;
+}
+
+.top-btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.top-btn:hover,
+.top-btn:hover a {
+    background-color:#ffffff;
+    color: #66AF08;
+}
+
+/* 商品 */
+
+.sell{
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #66AF08;
+    letter-spacing: .2rem;
+}
+
+.container{
+    width: 85%;
+    margin: 1rem auto;
+}
+
+.wrapper{
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}
+
+.slide{
+    width: 30%;
+    background-color: #ffffff;
+    border: 2px solid #66AF08;
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: scale(.9);
+    -moz-transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -o-transform: scale(.9);
+    -ms-transform: scale(.9);
+    display: inline-block;
+}
+
+.icon-img{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.sell-title{
+    width: 90%;
+    margin: auto;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #66AF08;
+    font-weight: bold;
+}
+
+.sell-text{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #66AF08;
+    font-weight: 500;
+    line-height: 3rem;
+}

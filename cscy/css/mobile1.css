@@ -1,0 +1,129 @@
+.warp1-box{
+    width: 100%;
+    height: 100%;
+}
+
+.warp1-title{
+    width: 100%;
+    text-align: center;
+    font-size: 3.125rem;
+    font-family:"SourceHanSansCN-Bold";
+    font-weight:bold;
+    color:rgba(102,153,255,1);
+    background:linear-gradient(180deg,rgba(153,204,255,1) 0%, rgba(102,153,255,1) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    position: absolute;
+    top: 12.890625%;
+    letter-spacing: .1rem;
+}
+
+.warp1-text{
+    width: 100%;
+    text-align: center;
+    color: #6699CC;
+    font-size: 1.625rem;
+    font-weight: 500;
+    font-family: "SourceHanSansCN-Medium";
+    position: absolute;
+    top: 18.90625%;
+}
+
+.warp1-swiper{
+    width: 100%;
+    height: 41.484375%;
+    position: absolute;
+    top: 31.953125%;
+}
+
+.warp1-swiper .swiper-warpper{
+    width: 100%;
+    height: 100%;
+}
+
+.warp1-swiper .swiper-wrapper .swiper-slide{
+    width: 55.277778%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.warp1-swiper .swiper-wrapper .swiper-slide-active{
+    transform: scale(1,1.11864407);
+    -ms-transform: scale(1,1.11864407);
+    -webkit-transform: scale(1,1.11864407);
+    transition: all .5s;
+}
+
+.warp1-swiper .swiper-wrapper .swiper-slide.bg1{
+    background-image: url("../image/warp1_one.png");
+}
+
+.warp1-swiper .swiper-wrapper .swiper-slide.bg2{
+    background-image: url("../image/warp1_two.png");
+}
+
+.warp1-swiper .swiper-wrapper .swiper-slide.bg3{
+    background-image: url("../image/warp1_three.png");
+}
+
+.warp1-box-title{
+    width: 46.231156%;
+    height: 12.380863%;
+    position: absolute;
+    top: -4.12758%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: url("../image/warp1-title.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 1.625rem;
+}
+
+.warp1-box-footer{
+    width: 72.613065%;
+    height: 12.757974%;
+    position: absolute;
+    bottom: -6.19137%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-image: url("../image/warp1-footer.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 1.25rem;
+}
+
+.warp1-btn2{
+    width: 28.88888889%;
+    height: 5.79470199%;
+    position: absolute;
+    top: .5106383%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 2px solid #9999FF;
+    display: table;
+}
+
+.warp1-btn2 a{
+    display: table-cell;
+    font-size: 1.625rem;
+    color: #9999FF;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+html{
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.swiper-slide.one{
+    background-image: url("../image/bg1.png");
+}
+
+.swiper-slide.two{
+    background-image: url("../image/bg2.png");
+}
+
+.swiper-slide.three{
+    background-image: url("../image/bg3.png");
+}
+
+.swiper-slide.four{
+    background-image: url("../image/bg4.png");
+}
+
+.swiper-slide.five{
+    background-image: url("../image/bg5.png");
+}
+
+.swiper-slide.six{
+    background-image: url("../image/bg6.jpg");
+    background-color: #000045;
+}
+
+.swiper-slide.seven{
+    background-image: url("../image/bg7.jpg");
+}
+
+.swiper-btn{
+    width: 1.875rem;
+    height: 2.0625rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.swiper-btn img{
+    max-height: 100%;
+}
+
+.swiper-btn.btn1{
+    top: 2.5rem;
+    transform: rotate(180deg);
+}
+
+.swiper-btn.btn2{
+    bottom: 2.5rem;
+}

@@ -1,0 +1,62 @@
+.warp2-box{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: relative;
+}
+
+.warp2-img1{
+    width: 52.08333333%;
+    height: 39.84375%;
+    position: absolute;
+    top: 11.640625%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.warp2-text1{
+    font-size: 1.6875rem;
+    color: #ffffff;
+    position: absolute;
+    top: 55.9375%;
+    left: 13.33333333%;
+}
+
+.warp2-text2{
+    font-size: 2.75rem;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    top: 60.3125%;
+    left: 13.33333333%;
+}
+
+.warp2-text3{
+    font-size: 1.75rem;
+    color: #ffffff;
+    position: absolute;
+    top: 75.46875%;
+    left: 13.33333333%;
+}
+
+.warp2-btn{
+    width: 73.88888889%;
+    height: 5.46875%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 87.421875%;
+    border-radius: 2.1875rem;
+    background-color: #ffffff;
+    display: table;
+}
+
+.warp2-btn a{
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #008B7D;
+    text-align: center;
+}

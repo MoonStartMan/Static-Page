@@ -1,0 +1,93 @@
+.warp5-title{
+    width: 100%;
+    font-size: 3.125rem;
+    letter-spacing: .5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 10.074231%;
+}
+
+.warp5-box{
+    width: 63.020833%;
+    height: 66.808059%;
+    position: absolute;
+    top: 22.799576%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 0;
+    opacity: 0;
+}
+
+.warp5-box-list{
+    display: inline-block;
+    vertical-align: top;
+    width: 47.107438%;
+    height: 44.4444444%;
+    margin-right: 2.892562%;
+    margin-bottom: 5.5555556%;
+    background-color: #003366;
+    position: relative;
+}
+
+.warp5-box-list-title{
+    position: absolute;
+    width: 21.052632%;
+    height: 14.285714%;
+    top: 30.357143%;
+    left: 10.701754%;
+    background-color: #3366CC;
+    border-radius: 1.25rem;
+    text-align: center;
+    display: table;
+}
+
+.warp5-box-list-title a{
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.warp5-box-list-text{
+    position: absolute;
+    top: 51.428571%;
+    left: 10.701754%;
+    color: #CCFFFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.warp5-box-list-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.warp5-box-list-img.one{
+    width: 31.052632%;
+    height: 57.5%;
+    left: 58.421053%;
+}
+
+.warp5-box-list-img.two{
+    width: 33.508772%;
+    height: 60.357143%;
+    left: 55.964912%;
+}
+
+.warp5-box-list-img.three{
+    width: 17.54385%;
+    height: 67.5%;
+    left: 64.210526%;
+}
+
+.warp5-box-list-img.four{
+    width: 30.526316%;
+    height: 56.785714%;
+    left: 58.070175%;
+}

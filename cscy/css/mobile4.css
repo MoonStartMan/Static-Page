@@ -1,0 +1,106 @@
+.warp4-title{
+    width: 100%;
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: bold;
+    position: absolute;
+    top: 7.03125%;
+    color: #ffffff;
+}
+
+.warp4-box{
+    width: 100%;
+    height: 58.4375%;
+    position: absolute;
+    top: 21.5625%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warp4-box-list{
+    width: 100%;
+    height: 29.545455%;
+    position: relative;
+    opacity: 0;
+}
+
+.warp4-box-list.one{
+    background:linear-gradient(-90deg,rgba(0,51,153,1) 0%,rgba(102,153,255,1) 100%);
+    background:-o-linear-gradient(-90deg,rgba(0,51,153,1) 0%,rgba(102,153,255,1) 100%);
+    background:-moz-linear-gradient(-90deg,rgba(0,51,153,1) 0%,rgba(102,153,255,1) 100%);
+    background:-webkit-linear-gradient(-90deg,rgba(0,51,153,1) 0%,rgba(102,153,255,1) 100%);
+}
+
+.warp4-box-list.two{
+    background:linear-gradient(-90deg,rgba(102,0,204,1) 0%,rgba(51,51,102,1) 100%);
+    background:-o-linear-gradient(-90deg,rgba(102,0,204,1) 0%,rgba(51,51,102,1) 100%);
+    background:-moz-linear-gradient(-90deg,rgba(102,0,204,1) 0%,rgba(51,51,102,1) 100%);
+    background:-webkit-linear-gradient(-90deg,rgba(102,0,204,1) 0%,rgba(51,51,102,1) 100%);
+}
+
+.warp4-box-list-number{
+    width: 15.972222222%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:5.0625rem;
+    font-family:"SourceHanSansCN-Light";
+    font-weight:300;
+    font-style:italic;
+    color: #ffffff;
+    opacity:0.1;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warp4-box-list-text-box{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15.97222222%;
+    margin: auto;
+}
+
+.warp4-box-list-text-box.one{
+    height: 26.244344%;
+}
+
+.warp4-box-list-text-box.two{
+    height: 39.366516%;
+}
+
+.warp4-box-list-title{
+    font-size: 1.375rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-style:italic;
+    font-family:"SourceHanSansCN-Bold";
+}
+
+.warp4-box-list-text{
+    color: #CCCCFF;
+    font-family:"SourceHanSansCN-Light";
+    font-style:italic;
+    font-size: 1.125rem;
+}
+
+.warp4-img1{
+    max-height: 100%;
+    position: absolute;
+    left: 80.833333%;
+}
+
+.warp4-img2{
+    max-width: 95%;
+    position: absolute;
+    left: 80.833333%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
